@@ -2,8 +2,10 @@ title: GE-Associados
 description: "Manual do usuário do GE-Associados — gestão de associados e cobrança periódica nominal, pela RIT."
 lang: pt-BR
 permalink: pretty
-# ⚠️ Sem domínio custom ainda: o manual serve na URL do Pages. Ao definir o domínio,
-# preencha `url` aqui, crie o CNAME e preencha MANUAL_CUSTOM_DOMAIN no bin/config.sh.
+# Domínio custom: o CNAME na raiz do repo é o que o GitHub Pages lê; `url` alimenta
+# o jekyll-seo-tag (canonical, Open Graph). Os dois precisam concordar.
+url: "https://docs.gea.rit360.org.br"
+baseurl: ""
 
 # Tema como gem (buildado via GitHub Actions — ver .github/workflows/pages.yml).
 theme: just-the-docs
