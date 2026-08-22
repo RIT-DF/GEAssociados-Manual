@@ -1,0 +1,15 @@
+// Esquema de cores do manual GE-Associados (just-the-docs).
+//
+// ⚠️ PLACEHOLDER — a identidade visual do GE-Associados ainda não está definida
+// em documento. Estes valores são os neutros acessíveis da família RIT (contraste
+// AA/AAA garantido); troque pelas cores da marca quando houver design system,
+// mantendo a regra: cor de marca com contraste < 4.5:1 só entra em logo/gráfico,
+// nunca em texto ou link.
+$link-color: #0f4855;           // link legível (AAA ~9:1)
+$btn-primary-color: #0c7357;    // botão primário (AA ~5:1 com texto branco)
+$body-heading-color: #0f4855;   // títulos
+$body-text-color: #1A1A1A;      // texto
+$nav-child-link-color: #6B6B6B; // texto secundário
+$sidebar-color: #F7F9FA;        // neutro frio
+$border-color: #E5E7EB;         // hairline
+$code-background-color: #F5F6F7;
