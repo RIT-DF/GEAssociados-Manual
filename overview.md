@@ -5,7 +5,7 @@ nav_order: 2
 
 # Visão geral
 
-O **GE-Associados** é um plugin WordPress que gerencia associados, famílias, responsáveis
+O **GE Associados** é um plugin WordPress que gerencia associados, famílias, responsáveis
 financeiros e ciclos de cobrança. Foi pensado para grupos escoteiros, associações e outras
 organizações associativas. A integração com WooCommerce permite cobrança online via gateway,
 sem que você precise criar produtos públicos.
@@ -15,7 +15,7 @@ passos), **Dashboard executivo** (KPIs e tendência de receita), **Comunicação
 eventos configuráveis), **recálculo automático no checkout WooCommerce** (descontos por
 pagamento antecipado, multas por atraso, isenções) e **auditoria detalhada** de cada cobrança.
 
-![Menu lateral do GE-Associados no wp-admin](assets/img/dashboard-menu.png)
+![Menu lateral do GE Associados no wp-admin](assets/img/dashboard-menu.png)
 *Menu lateral do plugin no wp-admin com todas as áreas disponíveis.*
 
 ## O que está pronto nesta versão

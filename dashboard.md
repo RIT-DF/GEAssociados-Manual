@@ -7,9 +7,9 @@ nav_order: 10
 
 O **Dashboard executivo** entrega, em uma única tela, a visão financeira e operacional do mês
 corrente. Pensado para coordenação e tesouraria: você abre, lê os números e fecha — sem precisar
-exportar relatórios. Acesse em **GE-Associados → Dashboard**.
+exportar relatórios. Acesse em **GE Associados → Dashboard**.
 
-![Item Dashboard no menu lateral do GE-Associados](assets/img/dashboard-menu.png)
+![Item Dashboard no menu lateral do GE Associados](assets/img/dashboard-menu.png)
 *Atalho no menu lateral do admin.*
 
 ![Dashboard executivo com KPIs, contadores, grafico e alertas](assets/img/dashboard-full.png)

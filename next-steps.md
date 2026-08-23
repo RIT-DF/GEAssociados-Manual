@@ -9,7 +9,7 @@ O plugin está em evolução constante. Algumas áreas adjacentes:
 
 ## Diagnóstico
 
-A página **GE-Associados → Diagnóstico** mostra a saúde do ambiente (versões de PHP, WordPress e
+A página **GE Associados → Diagnóstico** mostra a saúde do ambiente (versões de PHP, WordPress e
 WooCommerce, status do schema do banco). É útil quando algo não funciona como esperado — peça
 para o suporte técnico abrir essa página e copiar as informações antes de relatar problemas.
 

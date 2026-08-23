@@ -5,7 +5,7 @@ nav_order: 5
 
 # Importação de planilhas
 
-Em **GE-Associados → Importação** você pode subir planilhas existentes (Excel/CSV) para criar
+Em **GE Associados → Importação** você pode subir planilhas existentes (Excel/CSV) para criar
 membros, responsáveis e famílias em lote, sem digitar tudo manualmente. O plugin reconhece
 automaticamente os nomes das colunas mais comuns e agrupa membros pela mesma família quando o
 CPF do responsável se repete.

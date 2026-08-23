@@ -26,7 +26,7 @@ WordPress, WooCommerce, schema do banco).*
 
 1. **Boas-vindas** — apresenta o que será configurado e roda um diagnóstico do ambiente inline
    (PHP, WordPress, WooCommerce, schema do banco). É a mesma checagem disponível em
-   **GE-Associados → Diagnóstico**, integrada ao fluxo do wizard.
+   **GE Associados → Diagnóstico**, integrada ao fluxo do wizard.
 2. **Unidade Escoteira** — cadastra os dados básicos: nome, slug, fuso horário e e-mail
    financeiro. Se já existe uma Unidade Escoteira cadastrada, o passo é pré-preenchido com os
    dados atuais.
@@ -41,7 +41,7 @@ WordPress, WooCommerce, schema do banco).*
    *Relativo ao evento* (N dias após a geração) ou *Manual*.
 7. **Regras** — lista as regras propostas pelo preset (descontos, multas, isenções etc.) com
    checkbox para ativar/desativar cada uma. Os parâmetros detalhados podem ser editados depois
-   em **GE-Associados → Regras**.
+   em **GE Associados → Regras**.
 8. **Nomenclaturas** — personaliza rótulos do plugin (Membro, Família, Seção, Ramo, Responsável
    financeiro, Plano de cobrança). Em branco, usa o padrão PT-BR.
 9. **Confirmação** — revisão final com resumo de tudo que será criado. O botão **Aplicar

@@ -80,11 +80,11 @@ usado pelo recálculo dinâmico para atualizar valores individuais sem confundir
 > Para inspecionar essas informações de um pedido específico, use a API REST do WooCommerce ou
 > peça apoio técnico — não é algo visível direto na tela do pedido.
 
-![Pedido WooCommerce no admin com line items GE-Associados](assets/img/wc-order-with-meta.png)
+![Pedido WooCommerce no admin com line items GE Associados](assets/img/wc-order-with-meta.png)
 *Pedido WC criado pelo plugin. As metas técnicas ficam armazenadas no banco mas não aparecem
 visualmente no painel — para inspecioná-las use REST/SQL.*
 
 {: .note }
-> Pedidos WooCommerce que não vêm do GE-Associados são totalmente ignorados pelos hooks do
+> Pedidos WooCommerce que não vêm do GE Associados são totalmente ignorados pelos hooks do
 > plugin. Pedidos de outras origens (vendas avulsas, outros plugins) continuam funcionando
-> normalmente, sem qualquer interferência do GE-Associados.
+> normalmente, sem qualquer interferência do GE Associados.

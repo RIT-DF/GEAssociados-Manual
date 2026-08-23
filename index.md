@@ -3,9 +3,9 @@ title: Início
 nav_order: 1
 ---
 
-# Manual do GE-Associados
+# Manual do GE Associados
 
-O **GE-Associados** é o plugin WordPress que a sua organização usa para cadastrar associados,
+O **GE Associados** é o plugin WordPress que a sua organização usa para cadastrar associados,
 organizar famílias e responsáveis financeiros, definir regras de cobrança e cobrar
 periodicamente — com ou sem pagamento online via WooCommerce.
 
@@ -38,15 +38,15 @@ Visão geral, Começando, Cadastros, Importação, Configuração financeira, Co
 Pagamentos online, Comunicação, Acompanhamento e Próximos passos.
 
 {: .note }
-> Este manual descreve o **GE-Associados v1.1.4**. Feito para quem administra a organização —
+> Este manual descreve o **GE Associados v1.1.4**. Feito para quem administra a organização —
 > coordenação, tesouraria e quem opera o dia a dia dos cadastros e cobranças no wp-admin. Não é
 > preciso conhecimento técnico de WordPress ou WooCommerce para acompanhar: onde o assunto exige
 > mais, o próprio texto avisa.
 
 ## Quem administra o quê
 
-O GE-Associados não distingue papéis de usuário dentro do plugin — quem tem acesso ao menu
-**GE-Associados** no wp-admin vê e faz tudo. A separação de responsabilidade é organizacional,
+O GE Associados não distingue papéis de usuário dentro do plugin — quem tem acesso ao menu
+**GE Associados** no wp-admin vê e faz tudo. A separação de responsabilidade é organizacional,
 não do sistema:
 
 - **Quem cadastra** — mantém membros, famílias e responsáveis em dia. Ver [Cadastros](branches).
@@ -56,5 +56,5 @@ não do sistema:
   [Cobrança](billing-cycles) e [Acompanhamento](dashboard).
 
 Se a sua organização usa capacidades do WordPress para restringir quem acessa o menu
-**GE-Associados**, isso é configuração de perfil de usuário do próprio WordPress — o manual não
+**GE Associados**, isso é configuração de perfil de usuário do próprio WordPress — o manual não
 cobre esse passo porque ele é igual ao de qualquer outro plugin.

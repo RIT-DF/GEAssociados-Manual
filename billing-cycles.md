@@ -18,7 +18,7 @@ painel de Cobranças filtrado por esse ciclo.*
 
 ## Como gerar um ciclo (em 2 passos)
 
-Em **GE-Associados → Ciclos de cobrança**, clique em **Adicionar Novo**. O formulário pede três
+Em **GE Associados → Ciclos de cobrança**, clique em **Adicionar Novo**. O formulário pede três
 campos:
 
 - **Plano** — qual *BillingPlan* vai ser cobrado. O modo (individual ou familiar), o valor base,

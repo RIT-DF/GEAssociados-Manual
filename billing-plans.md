@@ -13,12 +13,12 @@ Familiar Semestral", "Anuidade da Federação" e "Taxa de Acampamento" são trê
 independentes.
 
 ![Listagem de Planos de cobrança](assets/img/billing-plans-list.png)
-*Listagem em GE-Associados → Planos de cobrança. Cada linha mostra nome, slug, frequência,
+*Listagem em GE Associados → Planos de cobrança. Cada linha mostra nome, slug, frequência,
 vencimento, modo, valor base e status.*
 
 ## Onde acessar
 
-O cadastro de planos fica em **GE-Associados → Planos de cobrança**. Use **Novo** para criar do
+O cadastro de planos fica em **GE Associados → Planos de cobrança**. Use **Novo** para criar do
 zero, ou o botão **Aplicar preset** para criar um plano (e regras) já pronto com base em um
 modelo conhecido (ver "Presets disponíveis" abaixo).
 

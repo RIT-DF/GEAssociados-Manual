@@ -32,7 +32,7 @@ O formulário de edição mostra dois cards de responsável lado a lado e habili
 ## Criando manualmente
 
 Se você não usou o atalho "Criar família automaticamente" no cadastro do responsável, pode
-criar a família depois em **GE-Associados → Famílias → Nova**. O dropdown de responsável mostra
+criar a família depois em **GE Associados → Famílias → Nova**. O dropdown de responsável mostra
 *apenas* os responsáveis que ainda não têm família vinculada — assim você nunca encontra opções
 inválidas em uma lista grande.
 

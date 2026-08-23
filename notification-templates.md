@@ -7,7 +7,7 @@ nav_order: 2
 # Templates de e-mail
 
 Os **templates de e-mail** definem o conteúdo de cada mensagem que o plugin envia. Acesso em
-**GE-Associados → Comunicação** (na seção "Templates", abaixo das configurações) ou diretamente
+**GE Associados → Comunicação** (na seção "Templates", abaixo das configurações) ou diretamente
 em *Editar* ao lado de cada linha.
 
 ![Listagem de templates de notificação](assets/img/notification-templates-list.png)
@@ -121,10 +121,10 @@ Salvar, Pré-visualizar e Restaurar padrão.*
 
 O WooCommerce envia seus próprios e-mails para o cliente em pontos do ciclo do pedido — alguns
 deles cobrem os mesmos eventos que o plugin já cobre. Para evitar duplicação, o plugin
-**suprime** certos e-mails do WC apenas para pedidos originados do GE-Associados (pedidos de
+**suprime** certos e-mails do WC apenas para pedidos originados do GE Associados (pedidos de
 outras origens continuam normais). A regra é:
 
-**Sempre suprimidos (2 e-mails)** — quando o pedido é GE-Associados:
+**Sempre suprimidos (2 e-mails)** — quando o pedido é GE Associados:
 
 - E-mail de fatura do WC — sinônimo do nosso fluxo manual via *Reenviar link*. Suprimido sempre
   para não duplicar.

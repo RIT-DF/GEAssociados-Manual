@@ -6,7 +6,7 @@ has_children: true
 
 # Começando
 
-O caminho mais rápido para sair de uma instalação nova para um GE-Associados operando de
+O caminho mais rápido para sair de uma instalação nova para um GE Associados operando de
 verdade: rode o wizard, confira os dados da organização e aprenda a navegar neste manual.
 
 - [Wizard de onboarding](wizard) — configuração inicial guiada em 9 passos.

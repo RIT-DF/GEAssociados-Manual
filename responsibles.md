@@ -14,7 +14,7 @@ família. Pode ser pai, mãe, tutor ou o próprio membro adulto.
 
 ## Cadastrando um responsável
 
-Em **GE-Associados → Responsáveis**, clique em "Novo". Preencha:
+Em **GE Associados → Responsáveis**, clique em "Novo". Preencha:
 
 - **Nome** (obrigatório) — nome completo.
 - **CPF** (obrigatório) — pode ser digitado com pontos e traços ou apenas dígitos. O sistema

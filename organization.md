@@ -6,7 +6,7 @@ nav_order: 2
 
 # Configurando a Unidade Escoteira
 
-A primeira coisa a fazer ao instalar o plugin é abrir **GE-Associados → Configurações** e
+A primeira coisa a fazer ao instalar o plugin é abrir **GE Associados → Configurações** e
 preencher os dados básicos da sua Unidade Escoteira. Esses dados são usados em comunicações, recibos e
 cabeçalhos do admin — errar aqui significa e-mail saindo com o nome errado ou sem remetente
 identificável para os responsáveis financeiros.

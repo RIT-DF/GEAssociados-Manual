@@ -6,7 +6,7 @@ nav_order: 1
 
 # Configurações de notificação
 
-A tela **GE-Associados → Comunicação** reúne as três áreas do módulo de notificações:
+A tela **GE Associados → Comunicação** reúne as três áreas do módulo de notificações:
 configurações gerais (esta seção), templates de e-mail e histórico de envios. As configurações
 gerais ficam no topo da página e definem se o plugin envia e-mails e como o remetente aparece
 para o destinatário.
@@ -52,7 +52,7 @@ texto), a cobrança e o evento, e deve retornar `true` (entregue) ou `false` (fa
 entra normalmente no log de envios. Isso é assunto de desenvolvimento, não de operação do
 dia a dia — repasse para quem mantém o código do site.
 
-## WooCommerce envia e-mails próprios — o GE-Associados suprime os duplicados
+## WooCommerce envia e-mails próprios — o GE Associados suprime os duplicados
 
 Cada cobrança vira um pedido WooCommerce, e o WC tem seus próprios e-mails de cliente (fatura, em
 processamento, em espera, concluído, estorno). Para evitar dois e-mails ao responsável sobre o

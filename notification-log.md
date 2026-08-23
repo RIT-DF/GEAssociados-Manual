@@ -10,7 +10,7 @@ O **histórico de envios** registra *toda* tentativa de notificação — tanto 
 entregues quanto as que falharam ou foram ignoradas. É a fonte definitiva para responder "essa
 cobrança recebeu lembrete?" ou "por que esse envio não saiu?".
 
-Acesso em **GE-Associados → Comunicação → Ver log completo** (link no painel lateral direito da
+Acesso em **GE Associados → Comunicação → Ver log completo** (link no painel lateral direito da
 tela inicial de Comunicação).
 
 ![Tela de Histórico de envios](assets/img/notification-log.png)

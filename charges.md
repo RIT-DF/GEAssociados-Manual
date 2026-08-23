@@ -6,7 +6,7 @@ nav_order: 2
 
 # Painel de cobranças
 
-O **painel de cobranças** em *GE-Associados → Cobranças* é a tela operacional do dia a dia:
+O **painel de cobranças** em *GE Associados → Cobranças* é a tela operacional do dia a dia:
 lista todas as cobranças da organização (cross-ciclo), com filtros para isolar o que você
 precisa ver, e leva à página de detalhe — onde ficam as ações de confirmar pagamento, cancelar e
 alterar valor.

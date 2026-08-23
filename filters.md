@@ -30,7 +30,7 @@ Clique em **Limpar** para voltar à listagem padrão (todos ativos, qualquer tip
 
 ## Filtros do Painel de cobranças
 
-A tela **GE-Associados → Cobranças** tem sua própria barra de filtros, focada no operacional
+A tela **GE Associados → Cobranças** tem sua própria barra de filtros, focada no operacional
 financeiro. São cinco filtros principais, todos combináveis:
 
 - **Status** — Pendente, Pago, Cancelado, Aguardando pedido (WooCommerce) e *Vencido* (status

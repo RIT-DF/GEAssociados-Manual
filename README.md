@@ -1,4 +1,4 @@
-# Manual do usuário — GE-Associados
+# Manual do usuário — GE Associados
 
 Site Jekyll (tema [just-the-docs](https://just-the-docs.com/)) publicado no GitHub Pages
 pelo workflow [`.github/workflows/pages.yml`](.github/workflows/pages.yml) a cada push na `main`.
