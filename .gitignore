@@ -5,3 +5,6 @@ Gemfile.lock
 vendor/
 .envrc
 .DS_Store
+
+# Bundler local (bundle config set --local path vendor/bundle)
+.bundle/
