@@ -2,6 +2,10 @@ title: GE-Associados
 description: "Manual do usuário do GE-Associados — gestão de associados e cobrança periódica nominal, pela RIT."
 lang: pt-BR
 permalink: pretty
+
+# Logo na barra lateral (just-the-docs). Arquivo local — o manual continua
+# coerente se o R2 mudar de endereço (Projeto/logo/ é a fonte da verdade).
+logo: "/assets/brand/ge-associados-logo.svg"
 # Domínio custom: o CNAME na raiz do repo é o que o GitHub Pages lê; `url` alimenta
 # o jekyll-seo-tag (canonical, Open Graph). Os dois precisam concordar.
 url: "https://docs.gea.rit360.org.br"

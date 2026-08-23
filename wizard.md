@@ -27,8 +27,9 @@ WordPress, WooCommerce, schema do banco).*
 1. **Boas-vindas** — apresenta o que será configurado e roda um diagnóstico do ambiente inline
    (PHP, WordPress, WooCommerce, schema do banco). É a mesma checagem disponível em
    **GE-Associados → Diagnóstico**, integrada ao fluxo do wizard.
-2. **Organização** — cadastra os dados básicos: nome, slug, fuso horário e e-mail financeiro. Se
-   já existe uma organização cadastrada, o passo é pré-preenchido com os dados atuais.
+2. **Unidade Escoteira** — cadastra os dados básicos: nome, slug, fuso horário e e-mail
+   financeiro. Se já existe uma Unidade Escoteira cadastrada, o passo é pré-preenchido com os
+   dados atuais.
 3. **Preset** — escolha um preset (ex.: configuração padrão escoteira) com planos e regras
    pré-prontas, ou opte por *Começar do zero*. O preset acelera a configuração; os próximos
    passos permitem ajustes pontuais.
@@ -55,7 +56,7 @@ para ativar cada uma.*
 Ao clicar em **Aplicar configuração** no último passo, o plugin executa uma única operação
 sequencial:
 
-1. Cria ou atualiza a **Organização**.
+1. Cria ou atualiza a **Unidade Escoteira**.
 2. Persiste as **nomenclaturas** customizadas.
 3. Aplica o **preset**: cria o plano de cobrança e as regras marcadas como ativas, com os
    *overrides* coletados nos passos 4 a 7.
