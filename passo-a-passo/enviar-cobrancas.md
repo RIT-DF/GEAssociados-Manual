@@ -20,8 +20,8 @@ passo, a cobrança existe só para quem olha o painel.
    verdade.
 2. Se o grupo cobra online, gere o **pedido** de cada cobrança (ou em lote, em
    **Cobranças**, selecionando as cobranças e escolhendo **Gerar pedido agora**). É o
-   pedido que cria o link de pagamento — sem ele, o e-mail de cobrança não sai, mesmo com
-   o envio automático ligado.
+   pedido que cria o link de pagamento — sem ele, o responsável não tem como pagar, mesmo
+   que receba o aviso.
 3. A partir daí, os e-mails saem sozinhos, nos dias configurados em cada modelo (por
    exemplo, "5 dias antes do vencimento" ou "no dia do vencimento").
 
@@ -31,17 +31,21 @@ passo, a cobrança existe só para quem olha o painel.
    **Reenviar lembrete**.
 
 {: .warning }
-O Painel avisa quando há cobranças sem link de pagamento pendentes — elas não saem por
-e-mail até virarem pedido. Se um responsável reclamar que "não recebeu nada", o primeiro
-lugar para checar é se a cobrança dele já tem pedido gerado.
+O Painel avisa quando há cobranças pendentes sem link de pagamento. Se um responsável
+reclamar que "não recebeu nada" ou que "não conseguiu pagar", o primeiro lugar para
+checar é se a cobrança dele já tem pedido gerado.
 
 ## Exemplo
 
 O ciclo de março foi gerado no dia 1º, com vencimento no dia 10. O modelo "Cobrança"
-está configurado para sair 5 dias antes do vencimento — ou seja, dia 5. Se o pedido da
-família Andrade foi gerado no dia 2, o e-mail dela sai no dia 5, normalmente. Se o pedido
-só foi gerado no dia 8 (atraso na geração), o e-mail sai assim que o sistema perceber que
-o pedido existe, ainda que seja depois do dia 5 programado.
+está configurado para sair 5 dias antes do vencimento — ou seja, dia 5. A família Andrade
+recebe o e-mail no dia 5, com o valor e o link de pagamento.
+
+{: .warning }
+Esse calendário casa com o **dia exato**. Um lembrete configurado para "5 dias antes" é
+enviado no dia 5 e só nele: se naquele dia a cobrança ainda não estiver pronta para sair,
+aquele lembrete específico não é reenviado depois. Por isso vale gerar os pedidos logo
+depois de gerar o ciclo, e não em cima do vencimento.
 
 ## O que pode dar errado
 

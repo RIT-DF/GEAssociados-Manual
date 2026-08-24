@@ -41,6 +41,6 @@ motivo, não um erro.
   [Unidade Escoteira](/modulos/unidade-escoteira/).
 - **Recorte vazio** — o filtro escolhido não encontrou nenhuma cobrança.
 - **Recorte grande demais** — pede para refinar o filtro antes de mostrar o resultado.
-- **Cobranças sem link de pagamento** — existem cobranças que ainda não viraram pedido;
-  elas não saem por e-mail enquanto isso não acontecer (veja
+- **Cobranças sem link de pagamento** — existem cobranças que ainda não viraram pedido.
+  Sem pedido não há link, e o responsável não tem como pagar (veja
   [Enviar os e-mails de cobrança](/passo-a-passo/enviar-cobrancas/)).
