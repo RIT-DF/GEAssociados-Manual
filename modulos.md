@@ -36,7 +36,7 @@ consultar uma tela específica.
 - [Comunicação](/modulos/comunicacao/)
 - [Permissões](/modulos/permissoes/)
 - [Rótulos](/modulos/rotulos/)
-- [Configuração](/modulos/configuracao/)
+- [Importar / Exportar](/modulos/configuracao/)
 - [Diagnóstico](/modulos/diagnostico/)
 
 ## Primeira ativação

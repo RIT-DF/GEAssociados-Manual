@@ -1,12 +1,12 @@
 ---
-title: Configuração
+title: Importar / Exportar
 parent: Módulos
 nav_order: 20
 ---
 
-# Configuração
+# Importar / Exportar
 
-**Menu:** Configurações → Configuração
+**Menu:** Configurações → Importar / Exportar
 
 Exportar, importar e apagar a configuração do plugin — não os dados de associados.
 
