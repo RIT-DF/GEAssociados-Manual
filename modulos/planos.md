@@ -31,5 +31,12 @@ O **preset escoteiro** cria um plano e três regras prontas de uma vez — e ign
 existir, em vez de duplicar. Bom ponto de partida na primeira configuração.
 
 {: .warning }
+**Renomeie o que o preset criar.** O plano e as três regras nascem com o sufixo
+`(preset escoteiro)` no nome — marcador de origem, útil para você. Mas o nome da regra é
+exibido no [simulador público](/responsavel/simulador/), onde quem ainda nem é associado
+lê a explicação do valor. "Desconto Familiar (preset escoteiro)" numa página voltada a
+pais soa como recado interno. Tire o sufixo depois de aplicar o preset.
+
+{: .warning }
 **Plano com ciclo já gerado não pode ser excluído.** Resolva as cobranças do ciclo
 primeiro (por exemplo, cancelando-as) se precisar remover um plano criado por engano.
