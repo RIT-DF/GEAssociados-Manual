@@ -6,7 +6,7 @@ nav_order: 17
 
 # Comunicação
 
-**Menu:** Configurações → Comunicação
+**Menu:** Configurações → aba Comunicação
 
 Controla os e-mails automáticos: quando saem, o que dizem, e o histórico do que já foi
 enviado. Três abas.

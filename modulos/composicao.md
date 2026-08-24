@@ -6,7 +6,7 @@ nav_order: 4
 
 # Composição
 
-**Menu:** Associados → Painel → aba Composição
+**Menu:** Painel e Relatórios → aba Composição
 
 Quantos associados estão ativos por ramo e seção, com entradas e saídas do período —
 voltado para a coordenação e a diretoria, não para a tesouraria.

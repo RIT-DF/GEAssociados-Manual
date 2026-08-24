@@ -6,7 +6,7 @@ nav_order: 21
 
 # Diagnóstico
 
-**Menu:** Configurações → Diagnóstico
+**Menu:** Configurações → aba Diagnóstico
 
 Confere se o plugin está funcionando como deveria, e ajuda a resolver quando não está.
 

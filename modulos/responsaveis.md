@@ -6,7 +6,7 @@ nav_order: 8
 
 # Responsáveis financeiros
 
-**Menu:** Associados → Responsáveis
+**Menu:** Famílias e Membros → aba Responsáveis financeiros
 
 A pessoa que recebe e paga a cobrança — geralmente o pai, a mãe ou o responsável legal do
 jovem, ou o próprio adulto voluntário.

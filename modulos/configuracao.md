@@ -6,7 +6,7 @@ nav_order: 20
 
 # Importar / Exportar
 
-**Menu:** Configurações → Importar / Exportar
+**Menu:** Configurações → aba Importar / Exportar
 
 Exportar, importar e apagar a configuração do plugin — não os dados de associados.
 

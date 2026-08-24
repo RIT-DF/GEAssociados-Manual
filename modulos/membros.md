@@ -6,7 +6,7 @@ nav_order: 6
 
 # Membros
 
-**Menu:** Associados → Membros
+**Menu:** Famílias e Membros → aba Membros
 
 Cadastro dos jovens do grupo e dos adultos voluntários (chefia, escotistas).
 

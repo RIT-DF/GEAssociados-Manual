@@ -6,7 +6,7 @@ nav_order: 18
 
 # Permissões
 
-**Menu:** Configurações → Permissões
+**Menu:** Configurações → aba Permissões
 
 Uma matriz que cruza os papéis de usuário do WordPress com o que cada um pode fazer
 dentro do plugin.

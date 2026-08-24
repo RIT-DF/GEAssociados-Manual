@@ -6,7 +6,7 @@ nav_order: 10
 
 # Ramos e Seções
 
-**Menu:** Associados → Ramos e Seções
+**Menu:** Ramos e Seções
 
 A estrutura do grupo: o **ramo** é a divisão principal (Lobinho, Escoteiro, Sênior,
 Pioneiro), e a **seção** é o grupo dentro de cada ramo (por exemplo, uma alcateia

@@ -6,7 +6,7 @@ nav_order: 3
 
 # Recebimentos
 
-**Menu:** Associados → Painel → aba Recebimentos
+**Menu:** Painel e Relatórios → aba Recebimentos
 
 Todo o dinheiro que entrou — ou saiu, em caso de reembolso — no período escolhido.
 

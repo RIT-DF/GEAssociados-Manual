@@ -6,7 +6,7 @@ nav_order: 2
 
 # Inadimplência
 
-**Menu:** Associados → Painel → aba Inadimplência
+**Menu:** Painel e Relatórios → aba Inadimplência
 
 Lista de cobranças em atraso, para a tesouraria priorizar quem cobrar primeiro.
 

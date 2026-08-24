@@ -20,8 +20,9 @@ passo, a cobrança existe só para quem olha o painel.
    verdade.
 2. Se o grupo cobra online, gere o **pedido** de cada cobrança (ou em lote, em
    **Cobranças**, selecionando as cobranças e escolhendo **Gerar pedido agora**). É o
-   pedido que cria o link de pagamento — sem ele, o responsável não tem como pagar, mesmo
-   que receba o aviso.
+   pedido que cria o link de pagamento. **Sem pedido, o sistema segura o lembrete de
+   propósito** — não faria sentido cobrar sem oferecer como pagar — e avisa o financeiro
+   por e-mail de que há cobrança nessa situação.
 3. A partir daí, os e-mails saem sozinhos, nos dias configurados em cada modelo (por
    exemplo, "5 dias antes do vencimento" ou "no dia do vencimento").
 
@@ -31,9 +32,10 @@ passo, a cobrança existe só para quem olha o painel.
    **Reenviar lembrete**.
 
 {: .warning }
-O Painel avisa quando há cobranças pendentes sem link de pagamento. Se um responsável
-reclamar que "não recebeu nada" ou que "não conseguiu pagar", o primeiro lugar para
-checar é se a cobrança dele já tem pedido gerado.
+O Painel avisa quando há cobranças pendentes sem link de pagamento, e a
+[Entregabilidade](/modulos/entregabilidade/) mostra essas cobranças como
+**"pedido não gerado"**. Se um responsável reclamar que "não recebeu nada", o primeiro
+lugar para checar é se a cobrança dele já tem pedido gerado.
 
 ## Exemplo
 

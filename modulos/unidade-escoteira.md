@@ -6,7 +6,7 @@ nav_order: 16
 
 # Unidade Escoteira
 
-**Menu:** Configurações → Unidade Escoteira
+**Menu:** Configurações → aba Unidade Escoteira
 
 Os dados do grupo: identificação, contato, endereço, fuso horário e identidade visual.
 

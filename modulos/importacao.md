@@ -6,7 +6,7 @@ nav_order: 9
 
 # Importação
 
-**Menu:** Associados → Importação
+**Menu:** Famílias e Membros → aba Importação
 
 Traz membros, famílias e responsáveis de uma planilha, em vez de cadastrar um por um.
 Veja o passo a passo completo em

@@ -6,7 +6,7 @@ nav_order: 11
 
 # Cobranças
 
-**Menu:** Cobranças → Cobranças
+**Menu:** Cobranças → aba Cobranças
 
 A lista de todas as cobranças, com filtros e ações em lote. É a tela do dia a dia de
 quem acompanha pagamentos.

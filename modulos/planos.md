@@ -6,7 +6,7 @@ nav_order: 13
 
 # Planos de cobrança
 
-**Menu:** Cobranças → Planos de cobrança
+**Menu:** Cobranças → aba Planos de cobrança
 
 O que se cobra: valor, periodicidade e como a cobrança é montada. Veja o passo a passo
 completo em [Configurar um plano de cobrança](/passo-a-passo/configurar-plano/).

@@ -6,7 +6,7 @@ nav_order: 1
 
 # Painel
 
-**Menu:** Associados → Painel
+**Menu:** Painel e Relatórios → aba Painel
 
 O painel é o panorama do mês: quanto entrou, quanto ainda é esperado, quem está em
 atraso e quais cobranças merecem atenção agora.
@@ -42,5 +42,6 @@ motivo, não um erro.
 - **Recorte vazio** — o filtro escolhido não encontrou nenhuma cobrança.
 - **Recorte grande demais** — pede para refinar o filtro antes de mostrar o resultado.
 - **Cobranças sem link de pagamento** — existem cobranças que ainda não viraram pedido.
-  Sem pedido não há link, e o responsável não tem como pagar (veja
+  Sem pedido não há link, o responsável não tem como pagar, e o lembrete dele fica
+  segurado até o pedido existir (veja
   [Enviar os e-mails de cobrança](/passo-a-passo/enviar-cobrancas/)).

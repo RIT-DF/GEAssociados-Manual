@@ -6,7 +6,7 @@ nav_order: 12
 
 # Ciclos de cobrança
 
-**Menu:** Cobranças → Ciclos de cobrança
+**Menu:** Cobranças → aba Ciclos de cobrança
 
 Um ciclo é a geração das cobranças de um plano para um período. É aqui que a cobrança de
 verdade nasce.

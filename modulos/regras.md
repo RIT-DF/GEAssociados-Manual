@@ -6,7 +6,7 @@ nav_order: 14
 
 # Regras
 
-**Menu:** Cobranças → Regras
+**Menu:** Cobranças → aba Regras
 
 Descontos, acréscimos, multas e isenções que ajustam o valor de uma cobrança. Cada regra
 é um filtro (quem ela alcança) mais uma transformação (o que ela faz com o valor).

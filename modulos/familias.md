@@ -6,7 +6,7 @@ nav_order: 7
 
 # Famílias
 
-**Menu:** Associados → Famílias
+**Menu:** Famílias e Membros → aba Famílias
 
 Uma família é o grupo de cobrança — reúne um ou dois responsáveis financeiros e os
 membros ligados a eles.

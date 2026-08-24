@@ -6,7 +6,7 @@ nav_order: 19
 
 # Rótulos
 
-**Menu:** Configurações → Rótulos
+**Menu:** Configurações → aba Rótulos
 
 Renomeia os termos do plugin para o vocabulário que o seu grupo já usa — sem mexer em
 código.

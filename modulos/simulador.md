@@ -6,7 +6,7 @@ nav_order: 15
 
 # Simulador
 
-**Menu:** Cobranças → Simulador
+**Menu:** Cobranças → aba Simulador
 
 Calcula o valor de uma cobrança **sem gerar nada de verdade** — para testar como uma
 regra nova vai se comportar antes de rodar um ciclo inteiro com ela.
