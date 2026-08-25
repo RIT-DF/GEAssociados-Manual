@@ -8,6 +8,37 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Ramo e seção que ainda não existem se resolvem na hora, na importação
+
+Antes, importar uma planilha exigia que os ramos e seções já estivessem cadastrados com o
+nome exato usado nela — senão a maioria das linhas dava erro. Agora, quando a planilha traz
+um valor que ainda não existe, aparece um passo próprio listando cada um, com quantos
+associados estão atrás dele, para você escolher entre vincular a um ramo ou seção já
+cadastrado ou criar um novo. Nada é criado automaticamente. Veja
+[Importar dados de uma planilha](/passo-a-passo/importar-dados/).
+
+## Importação aceita datas escritas de mais jeitos
+
+A importação de planilha passou a aceitar dia e mês com um dígito só e os separadores `/`,
+`-` e `.`. Nas colunas de data de ingresso e de fim de cobrança, também dá para informar
+só o ano ou mês e ano — o sistema completa para o primeiro dia do período. Data de
+nascimento continua exigindo o dia completo, porque é ela que define a categoria e o
+valor cobrado. Veja [Importar dados de uma planilha](/passo-a-passo/importar-dados/).
+
+## Colunas repetidas na planilha não se perdem mais
+
+Planilha com duas colunas de mesmo nome (duas "Observações", por exemplo) antes perdia
+uma delas em silêncio na importação. Agora as duas aparecem no mapeamento, com aviso de
+que o nome se repete, e cada uma pode ser mapeada para um campo diferente. Veja
+[Importar dados de uma planilha](/passo-a-passo/importar-dados/).
+
+## Cabeçalho da planilha não precisa mais ser a primeira linha
+
+Planilha com um título, um logo ou uma nota acima da tabela de dados antes confundia a
+importação, sem avisar. Agora o sistema procura em qual linha estão os nomes das colunas,
+diz qual usou e deixa escolher outra se precisar. Veja
+[Importar dados de uma planilha](/passo-a-passo/importar-dados/).
+
 ## Nova aba Shortcodes, e o Portal do Responsável ganha atributos
 
 Configurações ganhou a aba **Shortcodes**, que mostra o código de cada página que o
@@ -41,6 +72,11 @@ O formulário de **Enviar Feedback**, no cabeçalho de qualquer tela, agora deix
 o tipo (sugestão, dúvida, bug, depoimento ou outros), anexar arquivos (até 5, 5 MB cada) e
 optar por incluir os dados da organização para agilizar o atendimento. Quem envia recebe
 uma cópia da mensagem por e-mail. Veja [Enviar feedback](/modulos/feedback/).
+
+## Status da importação em português
+
+A lista de importações passou a mostrar o status de cada uma em português — Concluída,
+Falhou, Aguardando processamento — em vez do termo em inglês.
 
 ## Botão de escolher arquivo ficou mais claro
 

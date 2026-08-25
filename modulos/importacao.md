@@ -12,8 +12,9 @@ Traz membros, famílias e responsáveis de uma planilha, em vez de cadastrar um 
 Veja o passo a passo completo em
 [Importar dados de uma planilha](/passo-a-passo/importar-dados/).
 
-O caminho tem quatro paradas: enviar o arquivo, conferir a pré-visualização, mapear as
-colunas e processar.
+O caminho tem até cinco paradas: enviar o arquivo, conferir a pré-visualização, mapear as
+colunas, resolver ramo e seção (só aparece quando a planilha traz valor que ainda não
+existe no sistema) e processar.
 
 {: .important }
 **Envie um arquivo com apenas a aba de dados.** O sistema lê a **primeira aba visível**
@@ -45,15 +46,28 @@ uma importação errada depois.
 
 Em seguida vem o mapeamento: para cada coluna da sua planilha, qual campo do sistema ela
 alimenta. O sistema tenta adivinhar pelo cabeçalho; confira e ajuste. Use **Ignorar** nas
-colunas que não devem ser importadas.
+colunas que não devem ser importadas. Se a planilha tiver duas colunas com o mesmo nome
+(duas "Observações", por exemplo), o mapeamento avisa a repetição e deixa mapear as duas
+separadamente — nenhuma é descartada.
 
 ![Passo de mapeamento de colunas da importação](/assets/img/importacao-mapeamento.png)
+
+Se a sua planilha usa nomes de ramo ou seção que ainda não existem no sistema, aparece um
+passo próprio para resolver isso antes de processar: para cada valor novo, você escolhe
+vincular a um ramo ou seção já cadastrado ou criar um. Ramo e seção **nunca** são criados
+sozinhos pela importação — veja o passo a passo completo para o funcionamento detalhado.
 
 ## Referência rápida
 
 - Formatos aceitos: **XLSX** ou **CSV**, até **5 MB** e **1000 linhas**.
+- O sistema procura o cabeçalho nas primeiras linhas da planilha — não precisa ser a
+  primeira — e avisa em qual linha o encontrou.
+- Datas aceitam dia e mês com um dígito só e os separadores `/`, `-` e `.`. Data de
+  ingresso e data fim de cobrança também aceitam só o ano ou mês e ano. Data de
+  nascimento continua exigindo dia, mês e ano completos.
 - O sistema identifica quem já existe por **CPF** ou, na ausência dele, por **nome
   completo + data de nascimento**.
 - A importação é **parcial**: linha com erro não desfaz o que já foi processado. Os erros
   saem em CSV para correção.
-- A lista de importações permite ver, arquivar e desarquivar cada uma, inclusive em lote.
+- A lista de importações mostra o **status** de cada uma (Concluída, Falhou, Aguardando
+  processamento) e permite ver, arquivar e desarquivar, inclusive em lote.
