@@ -8,6 +8,18 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Nova aba Shortcodes, e o Portal do Responsável ganha atributos
+
+Configurações ganhou a aba **Shortcodes**, que mostra o código de cada página que o
+plugin publica (`[gea_portal]` e `[gea_simulador]`), para quem é cada uma e o estado da
+página — inclusive um jeito de recriar a página se ela foi apagada por engano. Veja
+[Shortcodes](/modulos/shortcodes/).
+
+O `[gea_portal]` também passou a aceitar seis atributos opcionais — título, quais
+cobranças aparecem, card de contato, histórico de acessos, seção de documentos e um
+limite de itens — para montar a página do jeito que o grupo preferir. Sem usar nenhum,
+a página continua exatamente como sempre foi.
+
 ## Recibo e declaração anual no portal do responsável
 
 O portal do responsável ganhou uma seção **Documentos**: o link **Baixar recibo** ao lado

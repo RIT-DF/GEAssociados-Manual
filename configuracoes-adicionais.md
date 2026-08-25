@@ -39,6 +39,13 @@ Em [Unidade Escoteira](/modulos/unidade-escoteira/) dá para colocar a logo do g
 cores que aparecem no portal do responsável e no simulador público. Sem preencher, o
 plugin usa as cores padrão do tema do site.
 
+## Páginas do portal e do simulador
+
+O portal do responsável e o simulador público só aparecem no site se existir uma página
+com o shortcode correspondente. Em [Shortcodes](/modulos/shortcodes/) você encontra os
+códigos para copiar e o estado de cada página — inclusive o caminho para recriar uma
+página que tenha sido apagada por engano.
+
 ## Rótulos
 
 Se o grupo usa outro nome para algum conceito do plugin — por exemplo, chama "família" de

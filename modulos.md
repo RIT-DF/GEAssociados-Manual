@@ -36,6 +36,7 @@ consultar uma tela específica.
 - [Comunicação](/modulos/comunicacao/)
 - [Permissões](/modulos/permissoes/)
 - [Rótulos](/modulos/rotulos/)
+- [Shortcodes](/modulos/shortcodes/)
 - [Importar / Exportar](/modulos/configuracao/)
 - [Diagnóstico](/modulos/diagnostico/)
 
