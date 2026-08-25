@@ -16,23 +16,30 @@ O caminho tem quatro paradas: enviar o arquivo, conferir a pré-visualização, 
 colunas e processar.
 
 {: .important }
-**Envie um arquivo com apenas a aba de dados.** O sistema lê a **primeira aba** da
-planilha — inclusive se ela estiver oculta. Se você montou a aba de importação dentro da
-planilha de trabalho do grupo, que costuma ter abas de controle antes dela, o que vai ser
-lido é a primeira, e não a sua. O resultado não dá erro: aparece uma pré-visualização com
-poucas linhas e nomes que você não reconhece.
+**Envie um arquivo com apenas a aba de dados.** O sistema lê a **primeira aba visível**
+da planilha — abas ocultas são ignoradas. Se a sua planilha de trabalho tem, antes da aba
+de dados, outra aba visível (uma capa, um resumo, um controle), é ela que vai ser lida, e
+não a sua. O resultado não dá erro: aparece uma pré-visualização com poucas linhas e
+nomes que você não reconhece — dado plausível, mas errado.
 
 {: .tip }
 No LibreOffice ou no Excel, clique com o botão direito na aba de dados → **Mover ou copiar
 planilha** → *Copiar* → destino **novo documento**. Você fica com um arquivo de uma aba só
 para enviar, e a planilha de trabalho do grupo continua intacta.
 
-![Tela de importação, passo de envio do arquivo](/assets/img/importacao.png)
+![Tela de importação, passo de envio do arquivo, com a orientação sobre a aba de dados](/assets/img/importacao.png)
 
-Depois do envio, o sistema mostra as primeiras linhas do que leu. Vale conferir aqui: se
-os dados aparecem trocados de coluna ou com acentuação estranha, o problema é do arquivo,
-e é muito mais barato corrigir a planilha agora do que desfazer uma importação errada
-depois.
+Se o arquivo não tiver nenhuma aba visível, o envio é recusado com a mensagem "Nenhuma
+aba visível na planilha. Deixe visível a aba com os dados antes de enviar o arquivo." —
+torne a aba de dados visível e envie de novo.
+
+Depois do envio, o sistema mostra as primeiras linhas do que leu. **É aqui que você
+descobre se importou a planilha certa**: confira se o número de linhas bate com o
+tamanho real da sua base e se os nomes das colunas são os que você espera. Planilha
+errada lida não dá erro nenhum — só uma prévia enxuta e plausível, fácil de confundir com
+"deu tudo certo". Se os dados aparecem trocados de coluna ou com acentuação estranha, o
+problema é do arquivo, e é muito mais barato corrigir a planilha agora do que desfazer
+uma importação errada depois.
 
 ![Pré-visualização das primeiras linhas lidas da planilha](/assets/img/importacao-previa.png)
 

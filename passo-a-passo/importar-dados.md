@@ -7,11 +7,13 @@ nav_order: 4
 # Importar dados de uma planilha
 
 {: .important }
-**Envie um arquivo com apenas a aba de dados.** O sistema lê a **primeira aba** da
-planilha — inclusive se ela estiver oculta. Se você montou a aba de importação dentro da
-planilha de trabalho do grupo, que costuma ter abas de controle antes dela, o que vai ser
-lido é a primeira, e não a sua. O resultado não dá erro: aparece uma pré-visualização com
-poucas linhas e nomes que você não reconhece.
+**Envie um arquivo com apenas a aba de dados.** O sistema lê a **primeira aba visível**
+da planilha — abas ocultas são ignoradas. Se a sua planilha de trabalho tem, antes da aba
+de dados, outra aba visível (uma capa, um resumo, um controle), é ela que vai ser lida, e
+não a sua. O resultado não dá erro: aparece uma pré-visualização com poucas linhas e
+nomes que você não reconhece — dado plausível, mas errado. Se o arquivo não tiver
+nenhuma aba visível, o envio é recusado, pedindo para deixar a aba de dados visível antes
+de reenviar.
 
 {: .tip }
 No LibreOffice ou no Excel, clique com o botão direito na aba de dados → **Mover ou copiar
@@ -30,7 +32,10 @@ demais.
 1. Abra **Famílias e Membros → Importação**.
 2. Envie o arquivo — **XLSX ou CSV**, até **5 MB** e **1000 linhas**, com a primeira linha
    sendo o cabeçalho.
-3. Confira a **prévia** das primeiras linhas.
+3. Confira a **prévia** das primeiras linhas: o número de linhas bate com o tamanho da
+   sua base, e os nomes das colunas são os que você espera? Esse é o momento de pegar
+   uma aba errada lida por engano — depois disso, o dado errado já pode ter entrado no
+   sistema.
 4. No **mapeamento de colunas**, revise o que o sistema já adivinhou sozinho — dá para
    corrigir uma coluna mapeada errada ou marcar uma coluna para **ignorar**.
 5. Escolha a **política de sobrescrita**:
@@ -58,6 +63,12 @@ ajustados manualmente dentro do plugin.
 
 ## O que pode dar errado
 
+- **"Nenhuma aba visível na planilha. Deixe visível a aba com os dados antes de enviar
+  o arquivo."** — todas as abas do arquivo estão ocultas. Torne a aba de dados visível
+  (no LibreOffice/Excel: botão direito na aba → **Reexibir**) e envie de novo.
+- **A prévia mostra poucas linhas ou nomes que você não reconhece** — sinal de que a
+  aba lida não é a de dados. Não processe: confira a ordem e a visibilidade das abas do
+  arquivo, ou copie a aba de dados para um documento novo (veja a dica acima) e reenvie.
 - **Algumas linhas deram erro** — a importação é parcial: as linhas sem erro são
   processadas normalmente, e a lista de erros sai em um arquivo CSV para você corrigir e
   reimportar só o que faltou.
