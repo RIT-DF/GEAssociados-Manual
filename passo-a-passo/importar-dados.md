@@ -6,6 +6,18 @@ nav_order: 4
 
 # Importar dados de uma planilha
 
+{: .important }
+**Envie um arquivo com apenas a aba de dados.** O sistema lê a **primeira aba** da
+planilha — inclusive se ela estiver oculta. Se você montou a aba de importação dentro da
+planilha de trabalho do grupo, que costuma ter abas de controle antes dela, o que vai ser
+lido é a primeira, e não a sua. O resultado não dá erro: aparece uma pré-visualização com
+poucas linhas e nomes que você não reconhece.
+
+{: .tip }
+No LibreOffice ou no Excel, clique com o botão direito na aba de dados → **Mover ou copiar
+planilha** → *Copiar* → destino **novo documento**. Você fica com um arquivo de uma aba só
+para enviar, e a planilha de trabalho do grupo continua intacta.
+
 ## Por que isto importa
 
 Se o grupo já mantém os associados numa planilha, cadastrar um por um no plugin é
