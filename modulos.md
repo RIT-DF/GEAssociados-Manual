@@ -41,3 +41,6 @@ consultar uma tela específica.
 
 ## Primeira ativação
 - [Assistente](/modulos/assistente/)
+
+## Ajuda
+- [Enviar feedback](/modulos/feedback/)

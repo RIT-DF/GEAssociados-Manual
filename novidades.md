@@ -8,6 +8,19 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Enviar Feedback ganhou tipo, anexos e cópia por e-mail
+
+O formulário de **Enviar Feedback**, no cabeçalho de qualquer tela, agora deixa escolher
+o tipo (sugestão, dúvida, bug, depoimento ou outros), anexar arquivos (até 5, 5 MB cada) e
+optar por incluir os dados da organização para agilizar o atendimento. Quem envia recebe
+uma cópia da mensagem por e-mail. Veja [Enviar feedback](/modulos/feedback/).
+
+## Botão de escolher arquivo ficou mais claro
+
+Nas telas onde se envia um arquivo — importação de planilha, importação de configuração e
+comprovante de pagamento —, o controle cinza do navegador deu lugar a um botão com rótulo
+próprio, mais fácil de identificar.
+
 ## Vencimento passa a considerar o dia inteiro
 
 A comparação de vencimento agora olha para o **dia**, não para um horário exato. Antes,

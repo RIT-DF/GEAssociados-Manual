@@ -22,4 +22,6 @@ nav_order: 10
 
 {: .note }
 Não encontrou o seu caso aqui? Veja o módulo específico em [Módulos](/modulos/) — a
-tela costuma explicar o aviso no próprio contexto em que ele aparece.
+tela costuma explicar o aviso no próprio contexto em que ele aparece. Continuando sem
+solução, use [Enviar feedback](/modulos/feedback/) — anexar um print da tela ajuda muito
+a equipe a entender o problema.
