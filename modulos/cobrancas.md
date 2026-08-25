@@ -64,10 +64,7 @@ quando a tentativa anterior falhou.
 
 ## Copiar link de pagamento
 
-<!-- CAPTURA PENDENTE: cobranca-detalhe-copiar-link (desktop + mobile) —
-     detalhe de uma cobrança Pendente com pedido válido, botão visível.
-     Não capturado nesta sessão: o Playwright estava em uso por outra sessão
-     no momento da execução. -->
+![Detalhe de uma cobrança pendente, com o botão "Copiar link de pagamento" ao lado do pedido vinculado](/assets/img/cobranca-detalhe-copiar-link.png)
 
 Quando a cobrança está **Pendente** e o pedido ainda aceita pagamento, o detalhe mostra o
 botão **Copiar link de pagamento**. Um clique copia o endereço para a área de transferência
