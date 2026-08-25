@@ -1,6 +1,6 @@
 ---
 title: Glossário
-nav_order: 10
+nav_order: 12
 ---
 
 # Glossário
@@ -8,8 +8,16 @@ nav_order: 10
 Termos do plugin e do mercado de cobrança, explicados do jeito que são usados no
 GE Associados — não a definição de dicionário.
 
-**Associado** — qualquer pessoa cadastrada no sistema: um membro (jovem ou adulto
-voluntário) ou um responsável financeiro.
+**Associado** — no Escotismo, quem tem **registro na União dos Escoteiros do Brasil
+(UEB)**: os jovens e os adultos voluntários (escotistas e dirigentes). É o que o plugin
+chama de **membro**. Pai, mãe ou tutor que paga a mensalidade **não** é associado nesse
+sentido — ver *Associado contribuinte*.
+
+**Associado contribuinte** — quem contribui financeiramente com o grupo sem ter registro
+próprio na UEB: tipicamente o pai, a mãe ou o tutor que paga a mensalidade do filho. No
+plugin, essa pessoa aparece como **responsável financeiro**, não como membro. A distinção
+importa: ela não conta na composição do grupo, não pertence a ramo nem a seção, e não
+aparece nos relatórios de associados — mas é quem recebe a cobrança.
 
 **Ciclo de cobrança** — a geração das cobranças de um plano para um período específico
 (por exemplo, o ciclo de "mar/2026"). Um plano pode ter vários ciclos ao longo do tempo.
@@ -21,8 +29,10 @@ vencimento. Pode estar pendente, aguardando pedido, vencida, paga ou cancelada.
 ligados a eles. Não precisa corresponder a uma família no sentido civil — um escotista
 adulto pode ficar sem família vinculada.
 
-**Membro** — um jovem do grupo ou um adulto voluntário (chefia, escotista), diferente de
-um responsável financeiro.
+**Membro** — como o plugin chama o **associado**: um jovem do grupo ou um adulto
+voluntário (escotista, dirigente). É quem pertence a um ramo e a uma seção, e quem entra
+na contagem de composição do grupo. Diferente do responsável financeiro, que paga sem ser
+membro.
 
 **Modo de cobrança** — como a cobrança de um plano é montada: individual (uma cobrança
 por membro), familiar (uma cobrança por família) ou híbrido.
@@ -42,8 +52,10 @@ existir.
 antecipação, crédito ou cancelamento, aplicado conforme condições como idade, ramo, seção
 ou tamanho da família.
 
-**Responsável financeiro** — a pessoa que recebe e paga a cobrança de uma família, mesmo
-que não seja o pai ou a mãe biológicos.
+**Responsável financeiro** — a pessoa que recebe e paga a cobrança de uma família. Em
+geral é o pai, a mãe ou o tutor — o **associado contribuinte** —, mas pode ser qualquer
+pessoa: avó, padrinho, ou o próprio jovem, se for maior de idade. Não precisa ter registro
+na UEB e não é contado como associado do grupo.
 
 **Ramo** — a divisão principal do grupo escoteiro (Lobinho, Escoteiro, Sênior, Pioneiro).
 

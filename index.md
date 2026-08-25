@@ -4,6 +4,8 @@ nav_order: 1
 permalink: /
 ---
 
+![GE Associados](/assets/brand/ge-associados-logo.svg){: .logo-inicial }
+
 # Manual do GE Associados
 
 O **GE Associados** é um plugin de WordPress que ajuda o seu grupo escoteiro a organizar
@@ -12,27 +14,29 @@ cobre com regularidade. Ele nasceu para resolver um problema conhecido de quem c
 tesouraria de um grupo: planilha que desatualiza, cobrança que se esquece de mandar,
 e a dúvida de "quem já pagou este mês?" que só a memória de alguém responde.
 
-Com o plugin, o grupo cadastra os associados uma vez, organiza-os em famílias, define
+Com o plugin, o grupo cadastra os associados uma vez — os jovens e os adultos
+voluntários —, organiza-os em famílias com quem paga por eles, define
 quanto e quando cobrar, e o próprio sistema gera as cobranças do período e acompanha quem
 pagou. Quando o grupo usa a loja online do WordPress (o WooCommerce), a cobrança vira um
 link de pagamento que o responsável recebe por e-mail. Quando o grupo não usa, a baixa do
 pagamento é feita à mão — o plugin funciona dos dois jeitos.
 
 {: .note }
-Este manual foi escrito para quem administra o plugin (coordenação e tesouraria) e para
-o pai, a mãe ou o responsável que só recebe as cobranças. Se você é responsável e chegou
-aqui por um link de e-mail, vá direto para a
-[Trilha do responsável](/responsavel/).
+Este manual tem duas trilhas, além da referência tela a tela. Se você cuida do dinheiro do
+grupo, comece pela [Trilha do tesoureiro](/tesoureiro/), que diz o que se espera de você e
+em que ritmo. Se você é pai, mãe ou responsável e chegou aqui por um link de e-mail, vá
+direto para a [Trilha dos pais e responsáveis](/responsavel/) — o resto do manual não é
+para você.
 
 ## O que o plugin faz
 
-- Cadastra jovens, adultos voluntários e as famílias que os reúnem.
+- Cadastra os associados — jovens e adultos voluntários — e as famílias que os reúnem.
 - Organiza o grupo em ramos (Lobinho, Escoteiro, Sênior, Pioneiro etc.) e seções.
 - Define planos de cobrança — valor, frequência, quem paga.
 - Aplica descontos, acréscimos, multas e isenções por regras que você mesmo configura.
 - Gera as cobranças de um período de uma vez, e acompanha o pagamento de cada uma.
 - Envia e-mails automáticos de cobrança e de lembrete.
-- Dá ao responsável financeiro um portal simples para ver e pagar o que deve, sem senha.
+- Dá a quem paga um portal simples para ver e pagar o que deve, sem senha.
 - Mostra, num painel único, quanto entrou, quanto falta entrar e quem está em atraso.
 
 ## O que o plugin não faz

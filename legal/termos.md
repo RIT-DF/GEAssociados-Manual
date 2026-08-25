@@ -8,8 +8,9 @@ nav_order: 4
 
 ## O que é o GE Associados
 
-O GE Associados é um **plugin de WordPress**, distribuído pela RIT — Rede de Inovação e
-Tecnologia sob a [licença GPL v2 ou posterior](/legal/licenca/). Não é um serviço online
+O GE Associados é um **plugin de WordPress**, distribuído pela
+[RIT — Rede de Inovação e Transformação](https://rit.org.br/){:target="_blank" rel="noopener"}
+sob a [licença GPL v2 ou posterior](/legal/licenca/). Não é um serviço online
 mantido pela RIT: uma vez instalado, ele roda inteiramente dentro do site do grupo
 escoteiro, na infraestrutura de hospedagem que o próprio grupo contrata.
 

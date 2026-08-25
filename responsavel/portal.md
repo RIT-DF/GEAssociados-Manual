@@ -1,6 +1,6 @@
 ---
 title: Acompanhar e pagar as cobranças
-parent: Trilha do responsável
+parent: Trilha dos pais e responsáveis
 nav_order: 1
 ---
 

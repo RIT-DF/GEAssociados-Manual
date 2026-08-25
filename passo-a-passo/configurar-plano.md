@@ -40,7 +40,7 @@ quem está configurando o plugin pela primeira vez.
 {: .warning }
 **Renomeie o que o preset criar.** O plano e as três regras nascem com o sufixo
 `(preset escoteiro)` no nome — marcador de origem, útil para você. Mas o nome da regra é
-exibido no [simulador público](/responsavel/simulador/), onde quem ainda nem é associado
+exibido no [simulador público](/responsavel/simulador/), onde quem ainda não faz parte do grupo
 lê a explicação do valor. "Desconto Familiar (preset escoteiro)" numa página voltada a
 pais soa como recado interno. Tire o sufixo depois de aplicar o preset.
 

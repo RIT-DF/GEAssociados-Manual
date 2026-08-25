@@ -8,7 +8,8 @@ nav_order: 4
 
 **Menu:** Painel e Relatórios → aba Composição
 
-Quantos associados estão ativos por ramo e seção, com entradas e saídas do período —
+Quantos associados estão ativos por ramo e seção, com entradas e saídas do período. Conta
+membros — jovens e adultos voluntários —, não quem paga por eles:
 voltado para a coordenação e a diretoria, não para a tesouraria.
 
 ![Relatório de composição por ramo e seção, com entradas e saídas](/assets/img/relatorio-composicao.png)

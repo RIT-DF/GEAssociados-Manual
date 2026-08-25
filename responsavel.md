@@ -1,10 +1,10 @@
 ---
-title: Trilha do responsável
-nav_order: 12
+title: Trilha dos pais e responsáveis
+nav_order: 7
 has_children: true
 ---
 
-# Trilha do responsável
+# Trilha dos pais e responsáveis
 
 Esta parte do manual é para você, pai, mãe ou responsável de um jovem no grupo escoteiro.
 Você não precisa saber nada sobre o plugin nem sobre WordPress — só precisa saber usar as

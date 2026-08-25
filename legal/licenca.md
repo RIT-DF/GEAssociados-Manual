@@ -19,7 +19,7 @@ License), a mesma licença do próprio WordPress. O texto completo está dispon�
   programe.
 - **Se você redistribuir uma versão modificada**, precisa mantê-la sob a mesma licença
   GPL — não é possível "fechar" o código de uma versão derivada.
-- **O plugin é fornecido sem garantia.** A RIT disponibiliza a ferramenta e mantém o
+- **O plugin é fornecido sem garantia.** A [RIT — Rede de Inovação e Transformação](https://rit.org.br/){:target="_blank" rel="noopener"} disponibiliza a ferramenta e mantém o
   código, mas a licença GPL não obriga a nenhuma garantia formal de funcionamento.
 
 {: .note }

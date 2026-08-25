@@ -12,14 +12,14 @@ os dados pessoais tratados pelo plugin.
 ## Quem é o controlador dos dados
 
 {: .important }
-O GE Associados é uma ferramenta disponibilizada pela **RIT — Rede de Inovação e
-Tecnologia**. **A RIT não é a controladora dos dados** cadastrados no plugin.
+O GE Associados é uma ferramenta disponibilizada pela [RIT — Rede de Inovação e Transformação](https://rit.org.br/){:target="_blank" rel="noopener"}.
+**A RIT não é a controladora dos dados** cadastrados no plugin.
 O **controlador dos dados é o próprio grupo escoteiro** que instala e opera o plugin no
 seu site — é ele quem decide o que cadastrar, quem tem acesso e por quanto tempo manter.
 
 A RIT fornece o software; o grupo escoteiro, ao usá-lo, é responsável por como os dados
-dos seus associados são tratados dentro dele, inclusive pelo cumprimento da Lei Geral de
-Proteção de Dados (LGPD) na sua operação.
+tratados dentro dele — dos associados e de quem paga por eles — são usados, inclusive pelo
+cumprimento da Lei Geral de Proteção de Dados (LGPD) na sua operação.
 
 ## O que o plugin coleta
 
@@ -57,5 +57,5 @@ pode ver e fazer dentro do plugin. O responsável financeiro tem acesso, pelo
 
 {: .note }
 Esta página descreve o que o plugin faz com os dados, para ajudar o grupo escoteiro a
-compor a própria política de privacidade voltada aos associados. Ela não substitui uma
+compor a própria política de privacidade voltada aos associados e às famílias. Ela não substitui uma
 análise jurídica sobre o cumprimento da LGPD pela operação específica de cada grupo.
