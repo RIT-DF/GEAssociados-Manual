@@ -15,9 +15,10 @@ código.
 
 ## O que pode ser renomeado
 
-Dez conceitos, cada um no singular e no plural, até 40 caracteres cada: organização,
-membro, família, responsável financeiro, seção, ramo, plano de cobrança, cobrança, ciclo
-e regra.
+Onze conceitos, cada um no singular e no plural, até 40 caracteres cada: organização,
+membro, família, responsável financeiro, seção, ramo, plano de cobrança, cobrança, ciclo,
+regra e "diretoria do grupo" — este último é quem o portal do responsável indica procurar
+quando uma cobrança em aberto ainda não tem link de pagamento.
 
 Deixar um campo em branco volta o termo ao padrão. Dá para restaurar um rótulo
 individualmente ou todos de uma vez.

@@ -8,6 +8,21 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Recibo e declaração anual no portal do responsável
+
+O portal do responsável ganhou uma seção **Documentos**: o link **Baixar recibo** ao lado
+de cada pagamento na lista "Pago", e o botão **Baixar declaração anual**, com tudo que foi
+pago no ano num único PDF. São documentos informais, sem valor fiscal. Veja
+[Acompanhar e pagar as cobranças](/responsavel/portal/).
+
+## Cobrança em aberto agora indica como resolver
+
+No portal do responsável, cada cobrança em aberto passou a terminar num caminho claro: o
+link **Pagar agora**, quando já existe pedido para pagar, ou a orientação para procurar a
+diretoria do grupo, quando ainda não existe. O termo "diretoria do grupo" é um rótulo
+configurável em [Rótulos](/modulos/rotulos/). Veja
+[Acompanhar e pagar as cobranças](/responsavel/portal/).
+
 ## Enviar Feedback ganhou tipo, anexos e cópia por e-mail
 
 O formulário de **Enviar Feedback**, no cabeçalho de qualquer tela, agora deixa escolher

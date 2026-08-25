@@ -38,6 +38,14 @@ não faria sentido pedir que alguém pague sem oferecer como. Você recebe um av
 quando isso acontece, e a [Entregabilidade](/modulos/entregabilidade/) marca essas
 cobranças como "pedido não gerado". Não deixe passar: a família não foi avisada.
 
+{: .note }
+Enquanto o pedido não existe, o [portal do responsável](/responsavel/portal/) mostra, no
+lugar do link de pagamento, a orientação **"Procure a diretoria do grupo para resolver
+esta cobrança"** — é assim que a família sabe que precisa falar com vocês em vez de achar
+que o sistema travou. O termo "diretoria do grupo" é um rótulo: se o seu grupo usa outro
+nome (por exemplo, "coordenação" ou "tesouraria"), troque em
+[Rótulos](/modulos/rotulos/).
+
 ## 4. Conferir que os avisos saíram
 
 Um ou dois dias depois, abra [Entregabilidade](/modulos/entregabilidade/) e olhe as cinco
@@ -56,6 +64,11 @@ data real do pagamento — não a data em que você está registrando.
 diretoria, no ano que vem, entender por que aquela cobrança está paga sem ter passado pelo
 gateway. Se não tiver o comprovante em mãos, marque a opção que diz isso — a escolha fica
 registrada no histórico, e é melhor um registro honesto do que um silêncio.
+
+{: .note }
+Assim que a cobrança fica paga, o responsável passa a ver o link **Baixar recibo** dela no
+[portal](/responsavel/portal/) — e, no fim do ano, a **declaração anual** com tudo que
+pagou. São documentos informais, sem valor fiscal; não substituem nota fiscal.
 
 ## 6. Olhar o atraso enquanto ele é pequeno
 

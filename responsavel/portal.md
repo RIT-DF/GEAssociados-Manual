@@ -36,9 +36,34 @@ tentar de novo.
 
 ## O que você vê ao entrar
 
-![Portal logado, com cobranças em aberto e pagas](/assets/img/portal-cobrancas.png)
+![Portal logado, com cobranças em aberto e pagas e a seção de documentos](/assets/img/portal-cobrancas.png)
 
-Suas cobranças em **aberto e vencidas**, separadas das já **pagas**.
+Suas cobranças aparecem em duas listas.
+
+**Em aberto e vencidas** — cada cobrança termina em um caminho para você resolver:
+
+- Se já existe um jeito de pagar online, aparece o link **Pagar agora**, que leva direto
+  para o pagamento.
+- Se ainda não existe, aparece a orientação **Procure a diretoria do grupo para resolver
+  esta cobrança**. Costuma acontecer quando o grupo ainda não gerou o link de pagamento,
+  ou quando aquela cobrança é combinada por fora do sistema (dinheiro na reunião, Pix
+  direto). O nome "diretoria do grupo" pode variar de um grupo para outro — cada
+  organização escolhe o termo que usa no dia a dia.
+
+**Pagas** — cada item tem o link **Baixar recibo**, que gera um PDF daquele pagamento
+específico.
+
+## Documentos
+
+Na seção **Documentos**, você encontra o botão **Baixar declaração anual**, que reúne
+todos os pagamentos do ano num único PDF — útil para organizar suas contas sem precisar
+somar recibo por recibo.
+
+{: .warning }
+**O recibo e a declaração anual são documentos informais, sem valor fiscal.** Eles servem
+para você acompanhar e organizar o que já pagou — não substituem nota fiscal nem recibo
+com validade jurídica. Precisando de um documento com valor fiscal, fale com a diretoria
+do grupo.
 
 ## Seus dados
 
@@ -60,3 +85,6 @@ dá para perceber se alguém mais acessou sem ser você.
   novamente.
 - **A sessão caiu no meio do uso** — ela dura 4 horas; depois disso, é normal precisar
   pedir um novo link.
+- **A cobrança em aberto não tem link "Pagar agora"** — não é erro do portal: significa
+  que o link de pagamento ainda não foi gerado, ou que aquela cobrança é combinada por
+  fora do sistema. Siga a orientação que aparece ao lado da cobrança.
