@@ -8,6 +8,16 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## A lista de importações mostra o nome do arquivo e quanto entrou
+
+A lista de importações passou a mostrar o **nome do arquivo como você enviou** e uma
+coluna **Resultado**, com quantos registros entraram e quantos deram erro. O botão **Ver**
+agora leva ao lugar certo: o relatório completo numa importação já processada, ou a
+pré-visualização numa que ainda está aguardando. E o CSV de erros pode ser baixado a
+qualquer momento — não só logo depois de importar —, então dá para corrigir a planilha
+com calma e reimportar só as linhas que faltaram. Veja
+[Importar dados de uma planilha](/passo-a-passo/importar-dados/).
+
 ## Ramo e seção que ainda não existem se resolvem na hora, na importação
 
 Antes, importar uma planilha exigia que os ramos e seções já estivessem cadastrados com o

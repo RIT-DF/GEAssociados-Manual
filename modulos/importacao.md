@@ -69,5 +69,14 @@ sozinhos pela importação — veja o passo a passo completo para o funcionament
   completo + data de nascimento**.
 - A importação é **parcial**: linha com erro não desfaz o que já foi processado. Os erros
   saem em CSV para correção.
-- A lista de importações mostra o **status** de cada uma (Concluída, Falhou, Aguardando
-  processamento) e permite ver, arquivar e desarquivar, inclusive em lote.
+- A lista de importações mostra o **nome do arquivo como você enviou** (importações
+  anteriores a esta mudança aparecem como "Nome original não registrado") e uma coluna
+  **Resultado**, com quantos registros entraram e quantos deram erro — por exemplo "269
+  entraram, 17 com erro". Importação ainda não processada mostra "—". O status
+  (Concluída, Falhou, Aguardando processamento) continua ali, e dá para ver, arquivar e
+  desarquivar, inclusive em lote.
+- **Ver** abre o relatório de uma importação já processada — contagens, lista de erros
+  linha a linha com o motivo, e o link para baixar o CSV de erros — a qualquer momento,
+  não só logo depois de importar. Numa importação enviada mas ainda não processada, Ver
+  abre a pré-visualização de onde você parou. Se o arquivo não estiver mais no servidor,
+  a tela explica em vez de levar a um caminho sem saída.

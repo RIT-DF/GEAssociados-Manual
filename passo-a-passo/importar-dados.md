@@ -113,8 +113,11 @@ ajustados manualmente dentro do plugin.
   aba lida não é a de dados. Não processe: confira a ordem e a visibilidade das abas do
   arquivo, ou copie a aba de dados para um documento novo (veja a dica acima) e reenvie.
 - **Algumas linhas deram erro** — a importação é parcial: as linhas sem erro são
-  processadas normalmente, e a lista de erros sai em um arquivo CSV para você corrigir e
-  reimportar só o que faltou.
+  processadas normalmente. Volte à aba **Importação**, localize a importação na lista,
+  clique em **Ver** e depois em **Baixar erros (CSV)** — o arquivo traz a linha, a
+  mensagem do erro e os valores originais daquela linha, para corrigir na planilha e
+  reimportar só o que faltou. Não precisa fazer isso na hora: o relatório continua
+  disponível para consultar quando quiser, mesmo dias depois.
 - **Coluna obrigatória sem mapear** — o sistema tenta adivinhar pelo nome da coluna na
   planilha, mas nem sempre acerta; confira o mapeamento antes de processar, especialmente
   se a planilha usa nomes de coluna fora do padrão.
@@ -125,7 +128,27 @@ ajustados manualmente dentro do plugin.
 
 ## Depois de importar
 
-A lista de importações (na mesma tela) mostra o **status** de cada uma — **Concluída**,
-**Falhou** ou **Aguardando processamento** — e permite ver o resultado, arquivar e
-desarquivar, inclusive em lote, útil para manter só as importações recentes visíveis no
-dia a dia.
+A lista de importações (na mesma tela) mostra o **nome do arquivo como você enviou**, o
+**status** de cada uma — **Concluída**, **Falhou** ou **Aguardando processamento** — e uma
+coluna **Resultado**, por exemplo "269 entraram, 17 com erro". Importação ainda não
+processada mostra "—" em Resultado.
+
+{: .tip }
+**O relatório de uma importação passada continua disponível — você não precisa corrigir
+tudo na hora.** Importou 286 pessoas e viu 17 com erro? Pode voltar à lista mais tarde,
+mesmo dias depois, clicar em **Ver**, baixar o CSV de erros, corrigir só essas linhas na
+planilha original e reimportar apenas o que faltou — sem refazer a importação inteira.
+
+Clique em **Ver** para abrir o relatório de uma importação já processada: contagens,
+lista de erros linha a linha com o motivo, e o botão **Baixar erros (CSV)**.
+
+![Relatório de uma importação: contagens, o erro linha a linha com o motivo, e o botão para baixar os erros em CSV](/assets/img/importacao-relatorio.png)
+
+Numa importação enviada mas ainda não processada, **Ver** abre a pré-visualização de onde
+você parou. Se o arquivo original não estiver mais no servidor, a tela avisa em vez de levar a
+um link sem saída.
+
+A lista também permite arquivar e desarquivar, inclusive em lote — útil para manter só as
+importações recentes visíveis no dia a dia. Importações feitas antes desta mudança
+mostram "Nome original não registrado" no lugar do nome do arquivo — é esperado, não é
+erro.
