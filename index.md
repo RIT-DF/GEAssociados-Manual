@@ -60,5 +60,7 @@ Se você já usa o plugin e só precisa entender uma tela específica, vá diret
 [Módulos](/modulos/) — é onde cada tela é explicada em detalhe.
 
 {: .note }
-Este manual descreve o GE Associados na versão **1.39.2**. Telas descritas aqui podem
-mudar em versões futuras — confira [Novidades](/novidades/) sempre que atualizar o plugin.
+Este manual descreve o GE Associados na **série 1.39**. As imagens foram capturadas ao
+longo dessa série, então o número exato que aparece no canto de cada tela pode variar em
+uma casa — o que elas mostram continua valendo. Telas mudam em versões futuras: confira
+[Novidades](/novidades/) sempre que atualizar o plugin.

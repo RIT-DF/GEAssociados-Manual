@@ -37,12 +37,23 @@ Selecione uma ou várias cobranças (há "selecionar todos") e escolha:
 
 ## Detalhe da cobrança
 
-![Detalhe de uma cobrança, aba Resumo, com regras aplicadas](/assets/img/cobranca-detalhe.png)
+![Detalhe de uma cobrança, aba Resumo, com identificação, valores e as ações disponíveis](/assets/img/cobranca-detalhe.png)
 
-Abas: **Resumo** (valor base e os ajustes aplicados), **Snapshot de regras** (o retrato
-congelado das regras no momento em que a cobrança foi emitida), **Membros** (numa
+Abas: **Resumo** (quem é, quanto, quando vence, e as ações), **Snapshot de regras** (o
+retrato congelado das regras no momento em que a cobrança foi emitida), **Membros** (numa
 cobrança de família, quem entrou e quanto) ou **Detalhes** (numa cobrança individual),
 **Notificações** e **Histórico**.
+
+No Resumo, compare **Valor (estimado hoje)** com **Valor de referência (plano, sem
+regras)**: se os dois diferem, alguma regra mexeu no valor, e a aba seguinte diz quais.
+
+![Aba Snapshot de regras, listando as regras vigentes quando a cobrança foi emitida](/assets/img/cobranca-detalhe-regras.png)
+
+{: .important }
+O snapshot é um **retrato congelado**. Se você renomear uma regra ou mudar um percentual
+depois, esta tela continua mostrando o que valia no dia da emissão — é assim que se
+descobre, meses depois, por que aquela cobrança saiu naquele valor. Mudança em regra afeta
+só cobrança futura, nunca a que já foi emitida.
 
 ![Detalhe da cobrança, aba Histórico](/assets/img/cobranca-detalhe-historico.png)
 
