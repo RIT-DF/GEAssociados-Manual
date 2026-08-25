@@ -46,6 +46,21 @@ que o sistema travou. O termo "diretoria do grupo" é um rótulo: se o seu grupo
 nome (por exemplo, "coordenação" ou "tesouraria"), troque em
 [Rótulos](/modulos/rotulos/).
 
+### Três jeitos de fazer o link chegar até o responsável
+
+Pedido gerado não é o mesmo que responsável avisado. Escolha o caminho pelo canal que a
+família usa:
+
+- **Copiar link de pagamento** — no [detalhe da cobrança](/modulos/cobrancas/), copia o
+  link direto para a área de transferência. É o mais rápido quando o pedido chega por
+  WhatsApp ou é feito na hora, pessoalmente na reunião.
+- **Reenviar lembrete** — ação em lote em [Cobranças](/modulos/cobrancas/): dispara de
+  novo o e-mail de cobrança, com o botão de pagamento. Serve quando o responsável perdeu o
+  e-mail original ou pediu para reenviar.
+- **Portal do responsável** — a família pede o próprio acesso, sem depender de vocês. Bom
+  padrão para quem prefere resolver sozinho, mas exige que o responsável saiba que o
+  [portal](/responsavel/portal/) existe.
+
 ## 4. Conferir que os avisos saíram
 
 Um ou dois dias depois, abra [Entregabilidade](/modulos/entregabilidade/) e olhe as cinco
@@ -69,6 +84,15 @@ registrada no histórico, e é melhor um registro honesto do que um silêncio.
 Assim que a cobrança fica paga, o responsável passa a ver o link **Baixar recibo** dela no
 [portal](/responsavel/portal/) — e, no fim do ano, a **declaração anual** com tudo que
 pagou. São documentos informais, sem valor fiscal; não substituem nota fiscal.
+
+{: .important }
+**Marcar o pedido como Concluído ou Processando direto no WooCommerce agora dá baixa
+sozinho na cobrança correspondente** — não é mais preciso vir até aqui confirmar de novo.
+Isso vale a partir da atualização de agosto/2026 e **não vale para trás**: pedido que já
+tinha sido concluído manualmente no WooCommerce **antes** dessa atualização continua com a
+cobrança Pendente, porque o sistema não reprocessa mudanças antigas. Encontrou um pedido
+assim — pago no WooCommerce, mas a cobrança ainda Pendente aqui? Dê baixa manual, com
+**Confirmar pagamento**, do jeito de sempre.
 
 ## 6. Olhar o atraso enquanto ele é pequeno
 

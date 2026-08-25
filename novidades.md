@@ -8,6 +8,27 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Copiar link de pagamento direto do detalhe da cobrança
+
+O detalhe de uma cobrança pendente com pedido válido ganhou o botão **Copiar link de
+pagamento** — cola direto no WhatsApp ou passa de viva voz, sem precisar esperar o próximo
+e-mail automático. Veja [Cobranças](/modulos/cobrancas/#copiar-link-de-pagamento).
+
+## Marcar pedido como pago no WooCommerce agora dá baixa sozinho
+
+Antes, marcar um pedido como Concluído ou Processando direto no WooCommerce não refletia
+na cobrança — ela continuava Pendente até alguém confirmar o pagamento manualmente aqui.
+Agora a baixa acontece sozinha. Vale só para pedidos alterados **depois** dessa
+atualização; o que já tinha sido concluído manualmente antes continua exigindo baixa
+manual. Veja [A rotina do mês](/tesoureiro/rotina-mensal/#5-dar-baixa-no-que-entrou-por-fora).
+
+## E-mail de cobrança mostra quem compõe o valor da família
+
+Numa cobrança de família, o e-mail passou a listar o nome e o valor de cada membro que
+compõe o total — sem outros dados pessoais. O botão **Pagar agora** também passou a sair
+sempre com contraste garantido, na cor da organização. Veja
+[Comunicação](/modulos/comunicacao/#o-e-mail-que-o-responsável-recebe).
+
 ## A lista de importações mostra o nome do arquivo e quanto entrou
 
 A lista de importações passou a mostrar o **nome do arquivo como você enviou** e uma

@@ -62,6 +62,29 @@ PDF/JPG/PNG até 5 MB — ou marcar que vai anexar depois, o que fica registrado
 histórico), alterar valor com motivo, cancelar com motivo, e tentar gerar o pedido de novo
 quando a tentativa anterior falhou.
 
+## Copiar link de pagamento
+
+<!-- CAPTURA PENDENTE: cobranca-detalhe-copiar-link (desktop + mobile) —
+     detalhe de uma cobrança Pendente com pedido válido, botão visível.
+     Não capturado nesta sessão: o Playwright estava em uso por outra sessão
+     no momento da execução. -->
+
+Quando a cobrança está **Pendente** e o pedido ainda aceita pagamento, o detalhe mostra o
+botão **Copiar link de pagamento**. Um clique copia o endereço para a área de transferência
+— é o jeito mais rápido de mandar o link para quem pediu por WhatsApp ou pessoalmente, sem
+esperar o próximo e-mail automático.
+
+{: .note }
+O botão só aparece quando faz sentido usá-lo. Se o pedido **não aceita mais pagamento** —
+porque já foi marcado como concluído ou foi cancelado direto no WooCommerce, fora do
+GE Associados — o botão some e a tela explica: *"Este pedido não aceita mais pagamento —
+provavelmente já foi concluído ou cancelado diretamente no WooCommerce."* Não é erro do
+sistema: é o pedido dizendo que aquele caminho não serve mais. Confira o status da
+cobrança (pode já estar paga) antes de procurar o link em outro lugar.
+
+Veja as outras duas formas de fazer o link chegar até o responsável em
+[A rotina do mês](/tesoureiro/rotina-mensal/#3-garantir-o-link-de-pagamento).
+
 {: .important }
 Editar uma regra **não muda o valor de uma cobrança já emitida** — só afeta cobranças
 futuras. A própria tela do detalhe diz isso, para evitar confusão sobre por que o valor

@@ -32,6 +32,28 @@ corpo em HTML (editor visual ou código) e corpo em texto puro, editados à part
 **marcadores** como `{member_name}` para inserir dados de cada cobrança automaticamente.
 Há **pré-visualização** sem salvar, e a opção de **restaurar o padrão**.
 
+## O e-mail que o responsável recebe
+
+<!-- CAPTURA PENDENTE: comunicacao-email-familia (desktop) — e-mail de
+     cobrança de uma família, mostrando a lista de membros. Não capturado
+     nesta sessão: o Playwright estava em uso por outra sessão no momento
+     da execução. -->
+
+O e-mail de cobrança traz o botão **Pagar agora**, e — logo abaixo, por escrito — o mesmo
+endereço, para quem usa um cliente de e-mail que não exibe botões corretamente. O botão
+sai na cor cadastrada da sua organização (veja
+[Unidade Escoteira](/modulos/unidade-escoteira/)), sempre com contraste suficiente para o
+texto continuar legível — se a cor escolhida for clara demais, o sistema ajusta o texto do
+botão para continuar visível, sem que você precise pensar em combinação de cores.
+
+Numa cobrança de **família**, o e-mail lista quem compõe o valor: o nome de cada membro e
+quanto ele representa no total. É o mesmo princípio de minimização de sempre — só nome e
+valor, sem CPF, data de nascimento ou qualquer outro dado.
+
+{: .note }
+Essa lista aparece mesmo em instalações que já tinham o plugin antes dessa mudança — não é
+preciso reeditar nenhum modelo de e-mail para ela funcionar.
+
 ## Histórico
 
 ![Aba de histórico de envios](/assets/img/comunicacao-historico.png)
