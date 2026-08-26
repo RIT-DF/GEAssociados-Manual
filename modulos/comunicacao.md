@@ -64,11 +64,7 @@ branco — o marcador não inventa um motivo para uma cobrança que não está z
 
 ## O e-mail que o responsável recebe
 
-<!-- CAPTURA PENDENTE: comunicacao-email-familia (desktop) — e-mail de
-     cobrança de uma família, mostrando a lista de membros. Não capturado
-     nesta sessão: não havia, no WordPress local, uma cobrança familiar com
-     e-mail já disparado no Mailpit — só cobranças individuais e reenvios
-     manuais. Recapturar quando houver um ciclo com família cobrada. -->
+![E-mail de cobrança criada para uma família: além do valor e do link de pagamento, traz a lista dos jovens cobertos pela cobrança, com o valor de cada um](/assets/img/comunicacao-email-familia.png)
 
 O e-mail de cobrança traz o botão **Pagar agora**, e — logo abaixo, por escrito — o mesmo
 endereço, para quem usa um cliente de e-mail que não exibe botões corretamente. O botão
