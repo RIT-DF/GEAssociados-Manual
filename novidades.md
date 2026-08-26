@@ -8,6 +8,18 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Lista de membros em mais avisos de cobrança
+
+A lista de jovens cobertos por uma cobrança de família, com o valor de cada um, saía só no
+e-mail de cobrança criada. Agora sai também no reenvio manual e nos avisos de vencimento —
+antes, no dia, e em atraso. Modelo que você já havia personalizado não muda sozinho. Veja
+[Comunicação](/modulos/comunicacao/#o-e-mail-que-o-responsável-recebe).
+
+## Horário certo nas notificações e no histórico
+
+O horário mostrado na aba Notificações e no histórico de uma cobrança estava três horas
+adiantado em relação ao envio real. Já está corrigido — nada para você configurar.
+
 ## Recibo e declaração emitidos pela tesouraria, com identidade visual e código de autenticidade
 
 Antes só o responsável podia baixar recibo e declaração anual no portal — agora a

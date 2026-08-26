@@ -39,6 +39,13 @@ corpo em HTML (editor visual ou código) e corpo em texto puro, editados à part
 **marcadores** como `{member_name}` para inserir dados de cada cobrança automaticamente.
 Há **pré-visualização** sem salvar, e a opção de **restaurar o padrão**.
 
+{: .tip }
+Personalizou um modelo e quer que ele traga a lista de membros de uma cobrança em família
+(veja [O e-mail que o responsável recebe](#o-e-mail-que-o-responsável-recebe))? Insira o
+marcador `{linhas_membros}` no corpo, no ponto onde a lista deve aparecer. Modelo editado
+pelo operador não recebe marcador novo sozinho — é você quem decide se quer a lista e onde
+ela entra.
+
 ## Cobrança sem valor a pagar
 
 ![Aba Visão geral com a linha do modelo "Cobrança sem valor a pagar" na tabela de modelos](/assets/img/comunicacao-modelo-sem-valor.png)
@@ -77,9 +84,20 @@ Numa cobrança de **família**, o e-mail lista quem compõe o valor: o nome de c
 quanto ele representa no total. É o mesmo princípio de minimização de sempre — só nome e
 valor, sem CPF, data de nascimento ou qualquer outro dado.
 
+Essa lista sai em todos os avisos de cobrança em aberto — **Cobrança criada**, **Reenvio
+manual**, **Vence em N dias**, **Vence amanhã**, **Vence hoje**, **Vencida há N dias** e
+**Cobrança formal de atraso**. É especialmente útil nos dois últimos: quando o assunto já é
+atraso, "R$ 90,00" sozinho costuma virar contestação — a lista mostra de onde vem o valor
+antes que o responsável precise perguntar. Fica de fora de **Pagamento confirmado**,
+**Cobrança cancelada**, **Estorno processado** e **Sem valor a pagar**, onde o detalhamento
+não responderia a nada. Cobrança de **um membro só** não traz lista — não há o que detalhar.
+
 {: .note }
 Essa lista aparece mesmo em instalações que já tinham o plugin antes dessa mudança — não é
-preciso reeditar nenhum modelo de e-mail para ela funcionar.
+preciso reeditar nenhum modelo de e-mail para ela funcionar. **Exceção:** modelo que você já
+havia personalizado continua exatamente como você deixou; a atualização não mexe em texto
+editado pelo operador. Para incluir a lista num modelo seu, adicione o marcador
+`{linhas_membros}` onde quiser que ela apareça — veja [Editar modelo](#editar-modelo).
 
 ### Confirmação de pagamento traz o link do recibo
 
