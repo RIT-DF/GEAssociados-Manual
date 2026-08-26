@@ -21,11 +21,7 @@ destacados em vermelho, para não passar despercebidos numa lista longa.
 
 ## Cobrança de família: uma linha, com detalhe por membro
 
-<!-- CAPTURA PENDENTE: relatorio-recebimentos-agrupado.png — recebimento de cobrança familiar
-     com a linha expandida. Capturar SOMENTE no WordPress local (localhost:3080), depois de
-     registrar um pagamento de cobrança familiar no período filtrado. Nunca em homologação nem
-     no site do cliente: as duas bases têm nome, valor e CPF de famílias reais, e este manual é
-     público. A tela de Inadimplência, logo adiante, mostra o mesmo agrupamento. -->
+![Tela de Recebimentos: a cobrança da Família Peixoto Andrade expandida, mostrando os três membros com valor cobrado e pago de cada um; abaixo, uma cobrança individual, que não expande](/assets/img/relatorio-recebimentos-agrupado.png)
 
 Quando o recebimento é de uma **cobrança familiar**, a linha traz uma seta ao lado do
 nome do responsável. Clique para abrir o detalhe: cada membro que compõe aquele valor,
