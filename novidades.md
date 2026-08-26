@@ -8,6 +8,15 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Cobrança zerada ganha status e e-mail próprios
+
+Cobrança que fecha em R$ 0,00 — por isenção, desconto ou ajuste — deixa de seguir o fluxo
+comum: agora ela vira **Sem valor a pagar**, não entra em lembrete nem em atraso, não gera
+pedido no WooCommerce e não aparece como pendência no Painel. A família recebe um e-mail
+próprio, uma única vez, explicando qual regra zerou o valor — sem link de pagamento,
+porque não há o que pagar. Se a cobrança deixar de ser zerada depois, ela volta sozinha ao
+fluxo normal. Veja [Cobranças](/modulos/cobrancas/#cobrança-sem-valor-a-pagar).
+
 ## Copiar link de pagamento direto do detalhe da cobrança
 
 O detalhe de uma cobrança pendente com pedido válido ganhou o botão **Copiar link de

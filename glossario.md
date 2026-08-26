@@ -23,7 +23,9 @@ aparece nos relatórios de associados — mas é quem recebe a cobrança.
 (por exemplo, o ciclo de "mar/2026"). Um plano pode ter vários ciclos ao longo do tempo.
 
 **Cobrança** — o registro de que uma pessoa (ou família) deve um valor num determinado
-vencimento. Pode estar pendente, aguardando pedido, vencida, paga ou cancelada.
+vencimento. Pode estar pendente, aguardando pedido, vencida, paga, cancelada ou **sem
+valor a pagar** (quando o cálculo daquele ciclo fechou em R$ 0,00 — ver
+[Cobranças](/modulos/cobrancas/#cobrança-sem-valor-a-pagar)).
 
 **Família** — o grupo de cobrança: reúne um ou dois responsáveis financeiros e os membros
 ligados a eles. Não precisa corresponder a uma família no sentido civil — um escotista

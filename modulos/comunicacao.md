@@ -32,6 +32,32 @@ corpo em HTML (editor visual ou código) e corpo em texto puro, editados à part
 **marcadores** como `{member_name}` para inserir dados de cada cobrança automaticamente.
 Há **pré-visualização** sem salvar, e a opção de **restaurar o padrão**.
 
+## Cobrança sem valor a pagar
+
+<!-- CAPTURA PENDENTE: comunicacao-modelo-sem-valor (desktop) — a linha do
+     modelo "Cobrança sem valor a pagar" na tabela da aba Visão geral. Não
+     capturado nesta sessão: exige login no WordPress, e quem loga é o
+     usuário. -->
+
+Quando uma cobrança fica **[Sem valor a pagar](/modulos/cobrancas/#cobrança-sem-valor-a-pagar)**,
+ela não entra na sequência normal de lembretes — em vez disso dispara o modelo
+**Cobrança sem valor a pagar**, editável como qualquer outro, com assunto padrão
+`{periodo}: nada a pagar`.
+
+Esse e-mail é diferente dos demais em três pontos:
+
+- sai **uma única vez** por cobrança, não numa sequência de dias antes/depois do
+  vencimento;
+- **não tem link de pagamento** — não haveria o que pagar;
+- usa o marcador `{motivo_zerado}`, que insere **qual regra** zerou o valor daquela
+  cobrança específica. É o que permite ao responsável entender a isenção em vez de
+  só receber um "R$ 0,00" sem explicação — e contestar, se achar que a regra não deveria
+  valer para o caso dele.
+
+{: .note }
+`{motivo_zerado}` só faz sentido nesse modelo. Usado em qualquer outro, ele aparece em
+branco — o marcador não inventa um motivo para uma cobrança que não está zerada.
+
 ## O e-mail que o responsável recebe
 
 <!-- CAPTURA PENDENTE: comunicacao-email-familia (desktop) — e-mail de

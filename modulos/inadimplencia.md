@@ -22,6 +22,10 @@ multa por atraso muda a cada dia —, os **dias de atraso**, a **faixa de atraso
 Esta tela não tem filtro de período. Se você quer recortar a inadimplência por uma data
 específica, use [Recebimentos](/modulos/recebimentos/).
 
+{: .note }
+Cobrança **[Sem valor a pagar](/modulos/cobrancas/#cobrança-sem-valor-a-pagar)** nunca
+aparece aqui — ela não está em atraso, está zerada.
+
 ## O que você faz aqui
 
 - **Seleção múltipla** e **exportação em CSV**, do total ou só da seleção — útil para levar

@@ -15,8 +15,38 @@ quem acompanha pagamentos.
 
 ## Filtros
 
-Status (pendente, aguardando pedido, vencido, paga, cancelada), plano, ciclo, período de
-vencimento, e busca por nome ou matrícula.
+Status (pendente, aguardando pedido, vencido, paga, cancelada, **sem valor a pagar**),
+plano, ciclo, período de vencimento, e busca por nome ou matrícula.
+
+## Cobrança sem valor a pagar
+
+Quando o cálculo de uma cobrança fecha em **R$ 0,00** — uma regra zerou o valor, um
+desconto encostou no total, ou você mesmo ajustou o valor para zero —, ela deixa de seguir
+o fluxo comum e ganha o status **Sem valor a pagar**.
+
+{: .note }
+**O gatilho é a cobrança estar zerada, não a pessoa ser isenta.** "Isento" descreve uma
+característica de alguém; "sem valor a pagar" é um fato de **uma cobrança, num ciclo
+específico**. Um jovem com desconto de irmão pode ter uma cobrança zerada num mês sem ser
+isento de nada — a regra de desconto por antecipação, por exemplo, pode zerar o valor só
+naquele período. Por isso o status é recalculado a cada cobrança, não herdado do cadastro
+da pessoa.
+
+Enquanto estiver nesse status, a cobrança:
+
+- **não** entra na fila de lembretes de vencimento nem de atraso, e nunca chega ao aviso
+  formal de inadimplência;
+- **não** aparece como pendência no [Painel](/modulos/painel/) nem na
+  [Inadimplência](/modulos/inadimplencia/);
+- **não** gera pedido novo no WooCommerce — não há o que pagar, então não há link de
+  pagamento a oferecer;
+- dispara **um** e-mail próprio, uma única vez — veja
+  [Comunicação](/modulos/comunicacao/#cobrança-sem-valor-a-pagar).
+
+{: .tip }
+Se a cobrança deixar de ser zerada depois — a isenção acabou, a regra mudou, você corrigiu
+o valor à mão —, ela **volta sozinha** ao fluxo normal na próxima verificação e passa a
+receber a sequência de cobrança dali em diante. Não é preciso reabrir nem recriar nada.
 
 ## Ações em lote
 
@@ -26,6 +56,8 @@ Selecione uma ou várias cobranças (há "selecionar todos") e escolha:
 
 - **Gerar pedido agora** — assíncrono, com acompanhamento item a item (fila, processando,
   concluída, recusada ou falha — sem esconder falha parcial atrás de um "pronto" genérico).
+  Cobrança **Sem valor a pagar** é recusada aqui — não há valor a cobrar, então não há
+  pedido a gerar.
 - **Confirmar pagamento**, com data e comprovante.
 - **Cancelar**, com motivo obrigatório.
 - **Alterar valor**, com motivo obrigatório.

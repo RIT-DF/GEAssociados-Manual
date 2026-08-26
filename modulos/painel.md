@@ -35,6 +35,11 @@ Contadores e gráfico não mudam com o filtro de plano ou ciclo — só os indic
 financeiros do topo mudam. Se parecer que o gráfico "não respeitou o filtro", é esse o
 motivo, não um erro.
 
+{: .note }
+Cobrança **[Sem valor a pagar](/modulos/cobrancas/#cobrança-sem-valor-a-pagar)** nunca
+entra nos indicadores de inadimplência nem nas cobranças críticas — ela não é uma
+pendência, é uma cobrança que fechou em R$ 0,00.
+
 ## Avisos que podem aparecer
 
 - **Organização não configurada** — falta preencher os dados básicos em

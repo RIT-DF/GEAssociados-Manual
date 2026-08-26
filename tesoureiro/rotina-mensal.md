@@ -94,6 +94,13 @@ cobrança Pendente, porque o sistema não reprocessa mudanças antigas. Encontro
 assim — pago no WooCommerce, mas a cobrança ainda Pendente aqui? Dê baixa manual, com
 **Confirmar pagamento**, do jeito de sempre.
 
+{: .note }
+Cobrança que fechou em **R$ 0,00** — por isenção, desconto ou ajuste — nunca aparece nos
+passos 3 a 6: ela vira **[Sem valor a pagar](/modulos/cobrancas/#cobrança-sem-valor-a-pagar)**,
+não pede link de pagamento, não entra em lembrete nem em atraso. A família recebe um
+e-mail avisando o motivo, uma única vez, e você não precisa fazer nada com ela — só volta
+a aparecer aqui se deixar de ser zerada num ciclo futuro.
+
 ## 6. Olhar o atraso enquanto ele é pequeno
 
 Em [Inadimplência](/modulos/inadimplencia/), veja quem está devendo e há quanto tempo. As
