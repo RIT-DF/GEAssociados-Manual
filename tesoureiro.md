@@ -53,3 +53,5 @@ tem passos de conferência que parecem redundantes e não são.
 - **"Por que esta cobrança saiu neste valor?"** → o detalhe da cobrança, aba Snapshot de
   regras, em [Cobranças](/modulos/cobrancas/)
 - **"Está tudo funcionando?"** → [Diagnóstico](/modulos/diagnostico/)
+- **"Isto é uma situação fora do comum, e a ordem dos passos importa?"** →
+  [Casos Especiais](/tesoureiro/casos-especiais/)
