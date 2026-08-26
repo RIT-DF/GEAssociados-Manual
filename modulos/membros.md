@@ -36,6 +36,10 @@ seção, família e status; ordene por nome, tipo ou status.
 | Ramo | Não | |
 | Foto | Não | |
 
+{: .tip }
+O campo **Família** tem **busca** — digite parte do nome em vez de rolar uma lista longa
+— e vem **ordenado por nome**, o que ajuda em grupos com muitas famílias cadastradas.
+
 ## O que pode dar errado
 
 {: .warning }

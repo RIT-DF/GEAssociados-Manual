@@ -44,6 +44,13 @@ O campo "Responsável financeiro" decide quem recebe o e-mail de cobrança. Conf
 errado manda a cobrança para a pessoa errada, e ninguém percebe até o vencimento passar
 sem pagamento.
 
+## Um responsável em mais de uma família
+
+Um mesmo responsável financeiro pode participar de **mais de uma família** — o caso mais
+comum é família recomposta, em que um dos responsáveis também é responsável financeiro
+noutro núcleo familiar, com outros filhos. Não é preciso duplicar o cadastro da pessoa
+para isso: vincule o mesmo responsável às duas famílias.
+
 ## Avisos
 
 O sistema avisa quando há um **responsável sem família vinculada** — vale conferir esses

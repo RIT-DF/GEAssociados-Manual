@@ -8,6 +8,68 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Nova cobrança avulsa
+
+Dá para criar uma cobrança para uma família ou membro específico, dentro de um ciclo já
+existente — sem esperar o próximo ciclo inteiro. O valor é calculado como sempre, pelas
+regras vigentes. Veja [Cobranças](/modulos/cobrancas/#nova-cobrança-avulsa).
+
+## Carência para a multa por atraso
+
+Configure quantos dias depois do vencimento a multa ainda não incide — ideal para não
+punir quem atrasa um ou dois dias por imprevisto. Veja
+[Regras](/modulos/regras/#carência-da-multa-por-atraso).
+
+## Excluir um ciclo criado por engano
+
+Ciclo sem nenhuma cobrança gerada agora pode ser excluído, não só cancelado cobrança por
+cobrança. Veja [Ciclos de cobrança](/modulos/ciclos/#excluir-um-ciclo).
+
+## Reenvio de e-mail, item por item ou em lote
+
+O histórico de envios em Comunicação ganhou a ação **Reenviar** — por item ou
+selecionando vários de uma vez. Reenviar algo que já deu certo pede confirmação, e um
+item sem destinatário leva direto ao cadastro para você completar o e-mail. Veja
+[Comunicação](/modulos/comunicacao/#reenviar-um-envio).
+
+## Contato do financeiro em todo e-mail
+
+Todo e-mail automático agora traz, no rodapé, o contato do financeiro do grupo — quem
+responder cai direto nesse endereço. Veja
+[Comunicação](/modulos/comunicacao/#contato-do-financeiro-no-rodapé).
+
+## Entregabilidade mais detalhada
+
+Cada número do relatório de [Entregabilidade](/modulos/entregabilidade/) agora abre a
+lista de quem está por trás dele, com o motivo real da falha. Há uma situação nova —
+**Link de pagamento indisponível**, para quando o pedido já saiu de circulação — e a
+exportação em CSV passou a trazer uma linha por tentativa de envio, não só o resumo.
+
+## Diagnóstico avisa quando o remetente muda sozinho
+
+Se outro plugin ou o próprio servidor trocar o remetente configurado antes do envio, o
+[Diagnóstico](/modulos/diagnostico/#remetente-divergente) e a aba de
+[Comunicação](/modulos/comunicacao/) agora avisam.
+
+## Importação: e-mail do membro e proteção contra CPF repetido
+
+A planilha ganhou a coluna **E-mail do membro**, para quem não tem responsável — como um
+adulto voluntário. A importação passou a recusar CPF repetido para pessoas diferentes,
+protegendo o grupo familiar inteiro daquela linha, e uma nova auditoria aponta CPF
+compartilhado em importações já feitas. Veja
+[Importação](/modulos/importacao/#membro-sem-responsável).
+
+## Um responsável em mais de uma família
+
+Famílias recompostas agora são possíveis: o mesmo responsável financeiro pode estar
+vinculado a mais de uma família. Veja
+[Famílias](/modulos/familias/#um-responsável-em-mais-de-uma-família).
+
+## Checkout não pede o e-mail duas vezes
+
+Quem já confirmou a identidade na tela de pagamento não é mais perguntado de novo na tela
+do Pix.
+
 ## Cobrança zerada ganha status e e-mail próprios
 
 Cobrança que fecha em R$ 0,00 — por isenção, desconto ou ajuste — deixa de seguir o fluxo

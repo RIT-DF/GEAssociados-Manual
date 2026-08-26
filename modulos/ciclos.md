@@ -31,3 +31,14 @@ serão cobrados** — confira esse número antes de seguir.
 Dá para **cancelar as cobranças pendentes de um ciclo** direto por aqui, sem precisar
 abrir cada uma na lista de Cobranças — útil quando um ciclo inteiro foi gerado por
 engano.
+
+## Excluir um ciclo
+
+Um ciclo criado por engano — período errado, plano errado, duplicado — pode ser
+**excluído**, e não só cancelado.
+
+{: .important }
+A exclusão só é permitida enquanto o ciclo **não tem nenhuma cobrança**. Se o ciclo já
+gerou cobranças, cancele-as primeiro (veja a dica acima) antes de tentar excluir o ciclo
+em si — é uma proteção contra apagar, sem querer, um ciclo que já tem histórico
+associado.

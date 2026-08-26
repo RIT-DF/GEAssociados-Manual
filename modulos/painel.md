@@ -21,7 +21,9 @@ relatório separado.
 ## O que você vê
 
 - **Filtros** por plano, por ciclo e por período — o padrão é o mês corrente. Escolher um
-  ciclo trava automaticamente o período e o plano correspondentes a ele.
+  ciclo trava automaticamente o período e o plano correspondentes a ele. O filtro de
+  período recusa uma **data final anterior à inicial** — evita um recorte sem sentido em
+  vez de simplesmente devolver vazio.
 - **Indicadores**: recebido no mês, previsto até o fim do mês, inadimplência (em valor e
   em percentual), cobranças ativas e taxa de pagamento.
 - **Contadores** de membros, famílias e responsáveis ativos, e o **gráfico de 12 meses** —

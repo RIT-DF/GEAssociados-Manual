@@ -8,6 +8,13 @@ nav_order: 8
 Um apanhado de práticas que tiram melhor proveito do plugin, para quem já passou dos
 primeiros passos.
 
+## Interface
+
+- **Formulários em janela rolam.** Num cadastro longo (por exemplo, um membro com muitos
+  campos), a janela inteira não precisa caber na tela: o conteúdo rola, e os botões
+  **Salvar** e **Cancelar** ficam sempre visíveis, fixos, mesmo com a janela rolada até o
+  meio. Você não precisa voltar ao topo para confirmar ou desistir.
+
 ## Cadastro
 
 - **Cadastre a data de ingresso do membro**, mesmo que pareça óbvio. Ela decide o cálculo

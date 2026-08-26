@@ -23,6 +23,13 @@ enviado. Três abas.
   nenhum resumo sai, e a tela avisa disso.
 - Tabela de **modelos** e **envios recentes**.
 
+{: .important }
+**Se o remetente configurado aqui não é o que realmente sai no e-mail**, esta aba e o
+[Diagnóstico](/modulos/diagnostico/#remetente-divergente) avisam. Acontece quando outro
+plugin ou o próprio servidor de e-mail troca o remetente por conta própria — o campo
+continua certo aqui, mas o responsável recebe de outro endereço, o que pode fazer o
+e-mail cair em spam ou parecer suspeito.
+
 ## Editar modelo
 
 ![Edição de um modelo de e-mail, com marcadores](/assets/img/comunicacao-modelo.png)
@@ -80,6 +87,22 @@ valor, sem CPF, data de nascimento ou qualquer outro dado.
 Essa lista aparece mesmo em instalações que já tinham o plugin antes dessa mudança — não é
 preciso reeditar nenhum modelo de e-mail para ela funcionar.
 
+### Contato do financeiro no rodapé
+
+<!-- CAPTURA PENDENTE: comunicacao-rodape-contato (desktop) — o rodapé de um
+     e-mail de cobrança, mostrando o contato do financeiro. Não capturado
+     nesta sessão: agente em background, sem sessão autenticada — o login é
+     do usuário. -->
+
+Todo e-mail que o plugin manda — cobrança, lembrete, resumo periódico, cobrança sem valor
+a pagar — traz, no rodapé, o **contato do financeiro** do grupo. Quem responder a
+mensagem cai direto nesse endereço, em vez de esbarrar num "não responda" sem saída.
+
+O endereço vem do **e-mail financeiro** cadastrado em
+[Unidade Escoteira](/modulos/unidade-escoteira/) — o mesmo que recebe o resumo
+periódico. Sem esse campo preenchido, o rodapé usa o remetente configurado em
+Comunicação.
+
 ## Histórico
 
 ![Aba de histórico de envios](/assets/img/comunicacao-historico.png)
@@ -91,3 +114,20 @@ vencimento, o destinatário, a cobrança relacionada, o status do envio e o erro
 Se um responsável reclamar que não recebeu um e-mail, esta aba costuma responder mais
 rápido que investigar por fora — busque pelo nome dele e veja o status exato daquele
 envio.
+
+### Reenviar um envio
+
+<!-- CAPTURA PENDENTE: comunicacao-reenviar (desktop) — a linha de um envio
+     falho no histórico, com a ação Reenviar disponível, e a barra de ações
+     em lote. Não capturado nesta sessão: agente em background, sem sessão
+     autenticada — o login é do usuário. -->
+
+Envio que falhou pode ser reenviado direto daqui — por linha ou em lote, selecionando
+várias de uma vez.
+
+- **Reenviar algo que já deu certo** pede confirmação: o sistema pergunta antes, porque
+  reenviar um e-mail que o responsável já recebeu manda uma segunda cópia, o que confunde
+  mais do que ajuda.
+- **Item "sem destinatário"** não tem para onde reenviar — o link leva direto ao cadastro
+  do responsável ou do membro, para você completar o e-mail e resolver na origem antes de
+  tentar de novo.

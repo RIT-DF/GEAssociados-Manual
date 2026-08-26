@@ -57,6 +57,35 @@ passo próprio para resolver isso antes de processar: para cada valor novo, voc�
 vincular a um ramo ou seção já cadastrado ou criar um. Ramo e seção **nunca** são criados
 sozinhos pela importação — veja o passo a passo completo para o funcionamento detalhado.
 
+## Membro sem responsável
+
+A planilha tem uma coluna **"E-mail do membro"**, separada do e-mail do responsável — para
+o caso de um membro que não tem responsável financeiro vinculado, como um adulto
+voluntário que se cadastra por conta própria. Sem essa coluna, um membro assim não tinha
+como receber cobrança nem aviso nenhum.
+
+{: .warning }
+Se uma linha da planilha traz um membro **sem responsável e sem e-mail próprio**, a
+importação avisa. Essa pessoa entra no sistema, mas não tem para onde mandar cobrança —
+vale voltar depois e completar o cadastro, ou vincular a uma família.
+
+## CPF repetido
+
+A importação **recusa** uma linha cujo CPF já pertence, no mesmo arquivo ou no cadastro
+existente, a uma pessoa com nome diferente — e a recusa **bloqueia o grupo familiar
+inteiro** daquela linha, não só a pessoa com o CPF em conflito. É uma proteção contra
+planilha com erro de digitação no CPF que criaria um cadastro trocado.
+
+<!-- CAPTURA PENDENTE: importacao-auditoria-cpf (desktop) — a lista de CPFs
+     compartilhados encontrados pela auditoria, com os cadastros envolvidos.
+     Não capturado nesta sessão: agente em background, sem sessão
+     autenticada — o login é do usuário. -->
+
+{: .tip }
+Já tem uma importação antiga que pode ter passado um CPF compartilhado por engano? Uma
+**auditoria** aponta esses casos — CPF que aparece em mais de um cadastro de pessoas
+diferentes — para você revisar e corrigir sem precisar caçar linha por linha.
+
 ## Referência rápida
 
 - Formatos aceitos: **XLSX** ou **CSV**, até **5 MB** e **1000 linhas**.

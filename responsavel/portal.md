@@ -43,7 +43,8 @@ Suas cobranças aparecem em duas listas.
 **Em aberto e vencidas** — cada cobrança termina em um caminho para você resolver:
 
 - Se já existe um jeito de pagar online, aparece o link **Pagar agora**, que leva direto
-  para o pagamento.
+  para o pagamento. Se você já confirmou sua identidade nessa tela, não precisa informar
+  o e-mail de novo na tela seguinte, do Pix — o sistema já sabe quem você é.
 - Se ainda não existe, aparece a orientação **Procure a diretoria do grupo para resolver
   esta cobrança**. Costuma acontecer quando o grupo ainda não gerou o link de pagamento,
   ou quando aquela cobrança é combinada por fora do sistema (dinheiro na reunião, Pix

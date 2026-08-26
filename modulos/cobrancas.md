@@ -48,6 +48,26 @@ Se a cobrança deixar de ser zerada depois — a isenção acabou, a regra mudou
 o valor à mão —, ela **volta sozinha** ao fluxo normal na próxima verificação e passa a
 receber a sequência de cobrança dali em diante. Não é preciso reabrir nem recriar nada.
 
+## Nova cobrança avulsa
+
+<!-- CAPTURA PENDENTE: cobranca-avulsa-formulario (desktop) — o formulário de
+     nova cobrança avulsa, com família ou membro, ciclo e valor calculado.
+     Não capturado nesta sessão: agente em background, sem sessão
+     autenticada — o login é do usuário. -->
+
+Além das cobranças que nascem de um ciclo gerado para todo mundo, dá para criar uma
+cobrança **avulsa** para uma família ou um membro específico, dentro de um ciclo já
+existente — útil para quem entrou no meio do caminho e ficou de fora da geração
+automática, ou para cobrar um caso isolado sem esperar o próximo ciclo inteiro.
+
+O valor é **calculado**, do mesmo jeito que uma cobrança normal: passa pelo plano e pelas
+regras vigentes, não é digitado à mão.
+
+{: .important }
+O sistema **recusa** criar uma cobrança avulsa quando já existe, para aquela família ou
+membro, uma cobrança **não cancelada** no mesmo ciclo — evita duplicar cobrança para
+quem já foi cobrado. Cancele a cobrança existente primeiro, se for o caso.
+
 ## Ações em lote
 
 ![Lista de cobranças com itens selecionados e a barra de ações em lote](/assets/img/cobrancas-lote.png)
