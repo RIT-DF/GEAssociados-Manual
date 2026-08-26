@@ -8,6 +8,30 @@ nav_order: 11
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Recibo e declaração emitidos pela tesouraria, com identidade visual e código de autenticidade
+
+Antes só o responsável podia baixar recibo e declaração anual no portal — agora a
+tesouraria também emite: recibo no [detalhe de uma cobrança paga](/modulos/cobrancas/#baixar-recibo-tesouraria),
+declaração anual em [Famílias](/modulos/familias/#declaração-anual). Os dois documentos
+trazem a identidade visual do grupo e um código de autenticidade impresso — ainda sem uma
+página pública para conferir esse código. No portal, o responsável agora escolhe o **ano**
+da declaração entre os três mais recentes. Veja
+[Acompanhar e pagar as cobranças](/responsavel/portal/#documentos).
+
+## Link do recibo direto no e-mail de confirmação
+
+O e-mail de **Pagamento confirmado** passou a trazer o link **Baixar recibo**, levando
+direto ao portal. Veja
+[Comunicação](/modulos/comunicacao/#confirmação-de-pagamento-traz-o-link-do-recibo).
+
+## Recebimentos e Inadimplência agrupados por responsável
+
+As duas telas agora agrupam cobrança de família numa linha só, com uma seta que abre o
+detalhe por membro — cobrança de um membro só continua linha simples. Colunas novas:
+**Plano**, **Ciclo** e **Pedido** (o número do pedido WooCommerce), também na planilha
+exportada. Veja [Recebimentos](/modulos/recebimentos/#cobrança-de-família-uma-linha-com-detalhe-por-membro)
+e [Inadimplência](/modulos/inadimplencia/#cobrança-de-família-uma-linha-com-detalhe-por-membro).
+
 ## Nova cobrança avulsa
 
 Dá para criar uma cobrança para uma família ou membro específico, dentro de um ciclo já

@@ -41,10 +41,7 @@ Há **pré-visualização** sem salvar, e a opção de **restaurar o padrão**.
 
 ## Cobrança sem valor a pagar
 
-<!-- CAPTURA PENDENTE: comunicacao-modelo-sem-valor (desktop) — a linha do
-     modelo "Cobrança sem valor a pagar" na tabela da aba Visão geral. Não
-     capturado nesta sessão: exige login no WordPress, e quem loga é o
-     usuário. -->
+![Aba Visão geral com a linha do modelo "Cobrança sem valor a pagar" na tabela de modelos](/assets/img/comunicacao-modelo-sem-valor.png)
 
 Quando uma cobrança fica **[Sem valor a pagar](/modulos/cobrancas/#cobrança-sem-valor-a-pagar)**,
 ela não entra na sequência normal de lembretes — em vez disso dispara o modelo
@@ -69,8 +66,9 @@ branco — o marcador não inventa um motivo para uma cobrança que não está z
 
 <!-- CAPTURA PENDENTE: comunicacao-email-familia (desktop) — e-mail de
      cobrança de uma família, mostrando a lista de membros. Não capturado
-     nesta sessão: o Playwright estava em uso por outra sessão no momento
-     da execução. -->
+     nesta sessão: não havia, no WordPress local, uma cobrança familiar com
+     e-mail já disparado no Mailpit — só cobranças individuais e reenvios
+     manuais. Recapturar quando houver um ciclo com família cobrada. -->
 
 O e-mail de cobrança traz o botão **Pagar agora**, e — logo abaixo, por escrito — o mesmo
 endereço, para quem usa um cliente de e-mail que não exibe botões corretamente. O botão
@@ -86,6 +84,13 @@ valor, sem CPF, data de nascimento ou qualquer outro dado.
 {: .note }
 Essa lista aparece mesmo em instalações que já tinham o plugin antes dessa mudança — não é
 preciso reeditar nenhum modelo de e-mail para ela funcionar.
+
+### Confirmação de pagamento traz o link do recibo
+
+O e-mail de **Pagamento confirmado** ganhou, no fim do corpo, o link **Baixar recibo** —
+leva direto para o [portal do responsável](/responsavel/portal/#o-que-você-vê-ao-entrar).
+Veja o comportamento de quem clica sem sessão aberta em
+[Documentos](/responsavel/portal/#documentos).
 
 ### Contato do financeiro no rodapé
 

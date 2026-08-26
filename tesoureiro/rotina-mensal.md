@@ -83,7 +83,10 @@ registrada no histórico, e é melhor um registro honesto do que um silêncio.
 {: .note }
 Assim que a cobrança fica paga, o responsável passa a ver o link **Baixar recibo** dela no
 [portal](/responsavel/portal/) — e, no fim do ano, a **declaração anual** com tudo que
-pagou. São documentos informais, sem valor fiscal; não substituem nota fiscal.
+pagou. Você também pode emitir os dois direto daqui: recibo no
+[detalhe da cobrança](/modulos/cobrancas/#baixar-recibo-tesouraria), declaração em
+[Famílias](/modulos/familias/#declaração-anual). São documentos informais, sem valor
+fiscal; não substituem nota fiscal.
 
 {: .important }
 **Marcar o pedido como Concluído ou Processando direto no WooCommerce agora dá baixa

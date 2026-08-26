@@ -134,6 +134,29 @@ cobrança (pode já estar paga) antes de procurar o link em outro lugar.
 Veja as outras duas formas de fazer o link chegar até o responsável em
 [A rotina do mês](/tesoureiro/rotina-mensal/#3-garantir-o-link-de-pagamento).
 
+## Baixar recibo (tesouraria)
+
+![Detalhe de uma cobrança paga, com o botão "Baixar recibo" na aba Resumo](/assets/img/cobranca-detalhe-baixar-recibo.png)
+
+Cobrança **paga** ganha, na aba Resumo, o botão **Baixar recibo** — o mesmo PDF que o
+responsável já pode baixar sozinho no [portal](/responsavel/portal/), mas emitido por
+você. Útil quando alguém pede o comprovante numa reunião presencial, ou quando o
+responsável não tem acesso ao portal.
+
+O recibo traz a identidade visual do grupo (logo e cor cadastrados em
+[Unidade Escoteira](/modulos/unidade-escoteira/)) e um **código de autenticidade**
+impresso no rodapé — uma sequência única para aquele documento.
+
+{: .warning }
+**O recibo e a declaração anual são documentos informais, sem valor fiscal.** Servem para
+comprovar e organizar a prestação de contas do grupo — não substituem nota fiscal. E o
+código de autenticidade, por enquanto, **não tem uma página pública para conferir** se
+ele é válido: ele existe no documento, mas ainda não há onde validá-lo.
+
+{: .note }
+O botão só aparece com a cobrança **Paga**. Cobrança pendente ou vencida não tem recibo —
+não haveria o que comprovar ainda.
+
 {: .important }
 Editar uma regra **não muda o valor de uma cobrança já emitida** — só afeta cobranças
 futuras. A própria tela do detalhe diz isso, para evitar confusão sobre por que o valor

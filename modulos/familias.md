@@ -44,6 +44,21 @@ O campo "Responsável financeiro" decide quem recebe o e-mail de cobrança. Conf
 errado manda a cobrança para a pessoa errada, e ninguém percebe até o vencimento passar
 sem pagamento.
 
+## Declaração anual
+
+![Modal de declaração anual de uma família, com o campo de ano](/assets/img/familia-declaracao-anual.png)
+
+Cada linha da lista tem o botão **Declaração**, que abre um modal para escolher o **ano**
+e baixar um PDF único com tudo que a família pagou naquele ano — o mesmo documento que o
+responsável já pode baixar sozinho no [portal](/responsavel/portal/), mas emitido por
+você. Útil para quem pede o comprovante direto na secretaria, sem acessar o portal.
+
+Os anos disponíveis são sempre os três mais recentes: o corrente e os dois anteriores.
+
+{: .warning }
+A declaração é um documento informal, sem valor fiscal — veja o mesmo aviso em
+[Baixar recibo](/modulos/cobrancas/#baixar-recibo-tesouraria).
+
 ## Um responsável em mais de uma família
 
 Um mesmo responsável financeiro pode participar de **mais de uma família** — o caso mais

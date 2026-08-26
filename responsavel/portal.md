@@ -54,11 +54,18 @@ Suas cobranças aparecem em duas listas.
 **Pagas** — cada item tem o link **Baixar recibo**, que gera um PDF daquele pagamento
 específico.
 
+{: .tip }
+O e-mail de confirmação de pagamento também traz um link **Baixar recibo**, que leva para
+cá. Se você clicar nele sem estar com uma sessão aberta no portal, cai no mesmo formulário
+de [pedir o link de acesso](#como-entrar) — não é erro, é o portal pedindo para confirmar
+quem você é antes de mostrar qualquer recibo.
+
 ## Documentos
 
-Na seção **Documentos**, você encontra o botão **Baixar declaração anual**, que reúne
-todos os pagamentos do ano num único PDF — útil para organizar suas contas sem precisar
-somar recibo por recibo.
+Na seção **Documentos**, você encontra "Baixar declaração anual" seguido de três anos —
+o corrente e os dois anteriores —, cada um como um link. Clique no ano que você precisa
+para baixar um PDF único com tudo que você pagou naquele ano — útil para organizar suas
+contas, ou para a declaração de Imposto de Renda, sem precisar somar recibo por recibo.
 
 {: .warning }
 **O recibo e a declaração anual são documentos informais, sem valor fiscal.** Eles servem
