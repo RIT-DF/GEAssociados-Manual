@@ -11,7 +11,7 @@ o que faz.
 {: .note }
 Se algo parou de funcionar ou apareceu mensagem de erro, o lugar é
 [Problemas e soluções](/problemas-solucoes/). Se a situação pede uma ordem certa de
-passos, veja [Casos especiais](/casos-especiais/).
+passos, veja [Casos especiais](/tesoureiro/casos-especiais/).
 
 ## O recibo e a declaração anual têm valor fiscal?
 
@@ -90,4 +90,4 @@ interrompe o que viria depois.
 Isso é diferente de só parar de cobrar alguém que continua ativo no grupo — para esse
 caso, existe a **Data de fim de cobrança**, um campo separado. Veja a distinção completa,
 com a ordem que evita cobrar quem já saiu, em
-[Casos especiais](/casos-especiais/#5-um-jovem-se-afastou-do-grupo).
+[Casos especiais](/tesoureiro/casos-especiais/#um-jovem-se-afastou).
