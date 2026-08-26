@@ -144,14 +144,14 @@ você. Útil quando alguém pede o comprovante numa reunião presencial, ou quan
 responsável não tem acesso ao portal.
 
 O recibo traz a identidade visual do grupo (logo e cor cadastrados em
-[Unidade Escoteira](/modulos/unidade-escoteira/)) e um **código de autenticidade**
-impresso no rodapé — uma sequência única para aquele documento.
+[Unidade Escoteira](/modulos/unidade-escoteira/)) e um **identificador da emissão**
+impresso no rodapé — uma sequência única, gerada a cada vez que o documento é baixado.
 
 {: .warning }
 **O recibo e a declaração anual são documentos informais, sem valor fiscal.** Servem para
-comprovar e organizar a prestação de contas do grupo — não substituem nota fiscal. E o
-código de autenticidade, por enquanto, **não tem uma página pública para conferir** se
-ele é válido: ele existe no documento, mas ainda não há onde validá-lo.
+comprovar e organizar a prestação de contas do grupo — não substituem nota fiscal. O
+identificador impresso no rodapé **não é um selo de autenticidade**: ele identifica aquela
+emissão, e não existe (nem está previsto) lugar para conferi-lo.
 
 {: .note }
 O botão só aparece com a cobrança **Paga**. Cobrança pendente ou vencida não tem recibo —

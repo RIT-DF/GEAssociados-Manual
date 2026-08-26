@@ -20,13 +20,13 @@ antes, no dia, e em atraso. Modelo que você já havia personalizado não muda s
 O horário mostrado na aba Notificações e no histórico de uma cobrança estava três horas
 adiantado em relação ao envio real. Já está corrigido — nada para você configurar.
 
-## Recibo e declaração emitidos pela tesouraria, com identidade visual e código de autenticidade
+## Recibo e declaração emitidos pela tesouraria, com identidade visual
 
 Antes só o responsável podia baixar recibo e declaração anual no portal — agora a
 tesouraria também emite: recibo no [detalhe de uma cobrança paga](/modulos/cobrancas/#baixar-recibo-tesouraria),
 declaração anual em [Famílias](/modulos/familias/#declaração-anual). Os dois documentos
-trazem a identidade visual do grupo e um código de autenticidade impresso — ainda sem uma
-página pública para conferir esse código. No portal, o responsável agora escolhe o **ano**
+trazem a identidade visual do grupo e um identificador da emissão impresso no rodapé — que
+não é selo de autenticidade e não tem onde ser conferido. No portal, o responsável agora escolhe o **ano**
 da declaração entre os três mais recentes. Veja
 [Acompanhar e pagar as cobranças](/responsavel/portal/#documentos).
 
