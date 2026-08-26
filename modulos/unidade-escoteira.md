@@ -27,3 +27,22 @@ Os dados do grupo: identificação, contato, endereço, fuso horário e identida
 O **fuso horário** não é um detalhe cosmético: ele decide a que hora local os e-mails
 automáticos disparam e como as datas de vencimento são interpretadas. Configure-o
 corretamente antes de gerar o primeiro ciclo de cobrança.
+
+## Tamanho da logo, para sair nítida no recibo e na declaração
+
+O recibo e a declaração anual (veja
+[Baixar recibo](/modulos/cobrancas/#baixar-recibo-tesouraria) e
+[Declaração anual](/modulos/familias/#declaração-anual)) desenham a logo cadastrada aqui
+numa altura que respeita a resolução do arquivo — em vez de esticar sempre para o mesmo
+tamanho.
+
+{: .tip }
+Para a logo sair no **tamanho cheio** nesses documentos, o arquivo precisa ter pelo menos
+**~190 px de altura**. Abaixo disso, o sistema reduz o desenho para manter a nitidez na
+impressão: a logo sai menor, mas nítida, em vez de grande e serrilhada. Para o melhor
+resultado impresso, prefira um arquivo com largura de **1000 px ou mais**.
+
+{: .note }
+Se o arquivo não puder ser lido — corrompido, ou num formato diferente de JPEG/PNG —, o
+documento continua sendo gerado, só que sem a logo, e o [Diagnóstico](/modulos/diagnostico/)
+mostra um aviso até você recadastrar o arquivo.

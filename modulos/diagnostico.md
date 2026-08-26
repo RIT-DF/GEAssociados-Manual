@@ -45,3 +45,19 @@ Não é erro do plugin: costuma ser **outro plugin instalado no site**, ou o pr�
 **servidor de e-mail**, trocando o remetente por conta própria antes do envio. O campo em
 Comunicação continua correto — o problema está em outra camada. Vale revisar a
 configuração de SMTP do site quando esse aviso aparecer.
+
+## Logo dos documentos sem aparecer
+
+Outra verificação confere se a logo do grupo e a marca do GE Associados foram desenhadas
+com sucesso no último recibo ou declaração gerados. Quando o arquivo cadastrado não pôde
+ser lido — corrompido, ou num formato que o gerador de PDF não entende (só JPEG e PNG) —,
+o documento sai sem aquela imagem, e o Diagnóstico avisa aqui, dizendo qual das duas
+falhou e por quê.
+
+{: .note }
+O documento **não deixa de ser gerado** por causa disso — recibo sem logo é melhor que
+recibo que não sai. Se o problema é na **logo do grupo**, recadastre o arquivo em
+[Unidade Escoteira](/modulos/unidade-escoteira/) e o aviso some sozinho. Se for na **marca
+do GE Associados** do rodapé, não há nada para você recadastrar — ela é um arquivo interno
+do plugin; fale com o suporte técnico ([Enviar feedback](/modulos/feedback/)) se esse aviso
+específico aparecer.

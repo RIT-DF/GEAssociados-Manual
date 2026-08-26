@@ -8,6 +8,23 @@ nav_order: 13
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Logo dos documentos mais nítida na impressão
+
+O recibo e a declaração anual passaram a desenhar a logo do grupo numa altura que respeita
+a resolução do arquivo cadastrado, em vez de esticar sempre para o mesmo tamanho. Logo
+pequena sai menor e nítida, em vez de grande e serrilhada. Para a logo sair no tamanho
+cheio, cadastre um arquivo com pelo menos ~190 px de altura em
+[Unidade Escoteira](/modulos/unidade-escoteira/#tamanho-da-logo-para-sair-nítida-no-recibo-e-na-declaração).
+
+## Busca e ordem alfabética para escolher família, membro ou responsável
+
+Os campos de família, membro e responsável — na nova cobrança avulsa, no cadastro de
+família e no Simulador — agora vêm em ordem alfabética e aceitam digitar parte do nome
+para filtrar, em vez de rolar uma lista comprida. Veja
+[Cobranças](/modulos/cobrancas/#nova-cobrança-avulsa),
+[Famílias](/modulos/familias/#campos-do-cadastro) e
+[Simulador](/modulos/simulador/).
+
 ## Lista de membros em mais avisos de cobrança
 
 A lista de jovens cobertos por uma cobrança de família, com o valor de cada um, saía só no

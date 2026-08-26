@@ -33,6 +33,12 @@ tela avisa, na confirmação, quantos membros ficarão sem família.
 | Responsável financeiro | Sim | Define quem recebe a cobrança — veja abaixo |
 | Nome da família | Não | Em branco, o sistema mostra o nome derivado do responsável |
 
+{: .tip }
+Os campos **Primeiro responsável** e **Segundo responsável** vêm em ordem alfabética e
+aceitam **digitar parte do nome para filtrar** — útil quando o cadastro de responsáveis é
+grande. Texto que não bate com nenhum nome exato não é aceito: o campo mantém a seleção
+anterior e avisa que não encontrou nada.
+
 ### Responsável financeiro — os quatro modos
 
 - **Apenas o primeiro** ou **apenas o segundo** — só essa pessoa recebe a cobrança.

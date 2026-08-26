@@ -22,6 +22,13 @@ regra nova vai se comportar antes de rodar um ciclo inteiro com ela.
 Em ambos, informe o plano, a data de vencimento e a situação de pagamento — que muda
 quais regras entram no cálculo.
 
+{: .tip }
+No modo Real, o campo de membro vem em ordem alfabética e aceita **digitar parte do nome
+para filtrar** — comece a digitar e escolha entre as sugestões, em vez de rolar a lista
+inteira. Isso importa em especial aqui: o Simulador é a ferramenta certa para investigar um
+valor de cobrança que parece errado — veja abaixo — e achar o membro certo entre centenas
+costumava ser o gargalo antes de sequer começar.
+
 ## O resultado
 
 Mostra o valor base, cada ajuste aplicado com o motivo, e o total. Regras que **não**

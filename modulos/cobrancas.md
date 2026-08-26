@@ -51,9 +51,9 @@ receber a sequência de cobrança dali em diante. Não é preciso reabrir nem re
 ## Nova cobrança avulsa
 
 <!-- CAPTURA PENDENTE: cobranca-avulsa-formulario (desktop) — o formulário de
-     nova cobrança avulsa, com família ou membro, ciclo e valor calculado.
-     Não capturado nesta sessão: agente em background, sem sessão
-     autenticada — o login é do usuário. -->
+     nova cobrança avulsa, com os campos de busca de família/membro, ciclo e
+     valor calculado. Não capturado nesta sessão: agente em background, sem
+     sessão autenticada — o login é do usuário. -->
 
 Além das cobranças que nascem de um ciclo gerado para todo mundo, dá para criar uma
 cobrança **avulsa** para uma família ou um membro específico, dentro de um ciclo já
@@ -62,6 +62,13 @@ automática, ou para cobrar um caso isolado sem esperar o próximo ciclo inteiro
 
 O valor é **calculado**, do mesmo jeito que uma cobrança normal: passa pelo plano e pelas
 regras vigentes, não é digitado à mão.
+
+{: .tip }
+Os campos de **família** e de **membro** vêm em ordem alfabética e aceitam **digitar parte
+do nome para filtrar** — comece a digitar e escolha entre as sugestões que aparecem, em vez
+de rolar a lista inteira. Se o texto digitado não bater com nenhum nome exato, o campo
+mantém a seleção anterior e avisa que não encontrou nada — não dá para digitar um nome
+parecido e sair do campo esperando que ele escolha sozinho.
 
 {: .important }
 O sistema **recusa** criar uma cobrança avulsa quando já existe, para aquela família ou
