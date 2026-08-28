@@ -121,6 +121,37 @@ PDF/JPG/PNG até 5 MB — ou marcar que vai anexar depois, o que fica registrado
 histórico), alterar valor com motivo, cancelar com motivo, e tentar gerar o pedido de novo
 quando a tentativa anterior falhou.
 
+### Registrar uma observação
+
+Diferente das outras ações, a **observação** está disponível em cobrança de **qualquer
+status** — inclusive paga e cancelada, que antes não tinham nenhuma ação disponível.
+
+Ela é **permanente**: uma vez registrada, fica, com **quem escreveu e quando**, visível
+para qualquer pessoa que abrir a aba Histórico depois. Não há como editar nem apagar uma
+observação — para corrigir alguma coisa, registra-se **outra** observação. Limite de
+2000 caracteres.
+
+O campo fica na aba **Resumo** do detalhe da cobrança, junto das demais ações; o que foi
+registrado aparece na aba **Histórico**, junto dos outros eventos da cobrança.
+
+![Aba Histórico de uma cobrança paga: a observação registrada aparece com autor e data, ao lado dos eventos automáticos, que aparecem como "Sistema"](/assets/img/cobranca-detalhe-observacao.png)
+
+{: .tip }
+**Use para o que acontece depois do pagamento, e que o sistema sozinho não explica.**
+Alguns casos reais:
+
+- A família tinha valor a receber por um erro de regra, mas a cobrança continua mostrando
+  o valor pago cheio, sem nada que aponte a diferença — a observação é o lugar de deixar
+  isso registrado até o acerto acontecer.
+- Pagamento feito por fora do link, com valor diferente do calculado — ver
+  [Recibo mostra valor diferente do que a família
+  pagou](/tesoureiro/casos-especiais/#recibo-mostra-valor-diferente-do-que-a-família-pagou).
+- Um acerto de diferença combinado com a família, fora do sistema.
+
+Sem a observação, tudo que acontece depois do pagamento fica fora do sistema — e daqui a
+seis meses ninguém reconstrói a história de por que aquela cobrança tem um valor que não
+bate com o esperado.
+
 ## Copiar link de pagamento
 
 ![Detalhe de uma cobrança pendente, com o botão "Copiar link de pagamento" ao lado do pedido vinculado](/assets/img/cobranca-detalhe-copiar-link.png)

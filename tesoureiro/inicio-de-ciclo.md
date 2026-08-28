@@ -36,6 +36,13 @@ Simule também o caso que costuma dar discussão: a família com bolsa, o irmão
 que virou pioneiro, o escotista adulto. Se o valor sair diferente do que você esperava,
 melhor descobrir agora do que pelo telefone de um pai.
 
+{: .tip }
+**Simule a família inteira, não só um jovem sozinho.** O modo
+[Família](/modulos/simulador/#modos) do simulador mostra o cálculo de cada membro e o
+total, tudo numa tela — e é o único jeito de ver desconto familiar e desconto de ramo
+disputando entre irmãos antes de a cobrança de verdade sair. Simular um jovem por vez
+esconde essa interação.
+
 ## O que pode dar errado
 
 - **Mudar a regra e esperar que as cobranças já emitidas mudem.** Não mudam, por decisão de
