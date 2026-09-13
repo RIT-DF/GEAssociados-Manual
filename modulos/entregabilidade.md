@@ -8,9 +8,16 @@ nav_order: 5
 
 **Menu:** Painel e Relatórios → aba Entregabilidade
 
-Mostra, por ciclo de cobrança, se os e-mails realmente chegaram aos responsáveis.
+Mostra, por ciclo de cobrança, se os e-mails realmente chegaram aos responsáveis — e deixa
+corrigir e reenviar direto daqui, sem precisar caçar cada caso por fora.
 
 ![Relatório de entregabilidade por ciclo, com as cinco situações de envio somadas no topo e detalhadas por ciclo na tabela](/assets/img/relatorio-entregabilidade.png)
+
+## Filtros
+
+**Plano, ciclo e período** — o mesmo recorte compartilhado das outras abas de Relatórios
+(veja [Painel](/modulos/painel/#o-que-você-vê)): filtrar aqui e trocar de aba mantém a
+escolha.
 
 ## O que você vê
 
@@ -39,20 +46,51 @@ segurado de propósito — não faria sentido pedir que alguém pague sem oferec
 oferecer um link que não funciona mais. O financeiro recebe um aviso por e-mail quando
 isso acontece, e o Painel também sinaliza.
 
-### Cada número abre a lista de quem o compõe
+## Comunicações com problema
 
-<!-- CAPTURA PENDENTE: entregabilidade-detalhe-situacao (desktop) — a lista
-     de destinatários por trás de um número da tabela, com o motivo real da
-     falha em cada linha. Não capturado nesta sessão: agente em background,
-     sem sessão autenticada — o login é do usuário. -->
+![Lista "Comunicações com problema" sempre visível, com o motivo em linguagem simples e a ação sugerida](/assets/img/entregabilidade-lista-problemas-desktop.png)
 
-Clique em qualquer número da tabela para abrir a lista de quem está por trás dele — nome,
-cobrança e o **motivo real** daquela falha específica, em vez de precisar cruzar a tabela
-resumida com a lista de cobranças por fora.
+![A mesma lista "Comunicações com problema" em celular](/assets/img/entregabilidade-lista-problemas-mobile.png)
+
+Abaixo dos cartões e da tabela por ciclo, a lista **Comunicações com problema** fica
+**sempre visível** — antes era preciso clicar num número para descobrir que ela existia.
+Cada linha traz o nome, a cobrança, o **motivo em linguagem simples** (não o texto cru que
+o servidor de e-mail devolveu) e uma **ação sugerida**: corrigir cadastro ou tentar de
+novo, conforme o caso.
+
+{: .tip }
+Se um responsável reclamar que não recebeu a cobrança, esta lista é o primeiro lugar a
+olhar — o motivo já vem traduzido, sem precisar interpretar erro de servidor de e-mail.
+
+### Cartões e tabela filtram a lista
+
+Clique em qualquer **cartão** do topo ou em qualquer **número da tabela por ciclo** para
+que a lista abaixo mostre só aquele grupo — por exemplo, só as falhas de um ciclo
+específico, ou só os itens "sem destinatário" de todos os ciclos. Um botão **Limpar
+filtro** volta a mostrar tudo.
+
+### Corrigir e-mail
+
+Na linha de um item **sem destinatário** ou com e-mail claramente errado, o botão
+**Corrigir e-mail** leva direto ao cadastro do responsável ou do membro **já em modo de
+edição** — complete o e-mail e volte para a Entregabilidade, no mesmo filtro em que você
+estava, sem precisar navegar até a família por fora.
+
+## Reenvio em lote
+
+![Confirmação de reenvio em lote, mostrando quantas comunicações serão reenviadas e quantas ficarão de fora, com o motivo](/assets/img/entregabilidade-lote-confirmacao.png)
+
+Selecione várias linhas (ou use "selecionar todos os que falharam") e reenvie de uma vez.
+Antes de sair, a confirmação diz **quantas comunicações serão reenviadas e quantas ficarão
+de fora** — por exemplo, itens sem destinatário, que não têm para onde reenviar. Depois de
+processar, o resultado aparece **item por item**: enviados, recusados por alguma regra (como
+a de não repetir no mesmo dia — veja [Inadimplência](/modulos/inadimplencia/#enviar-mensagem))
+e falhos.
 
 ## O que você faz aqui
 
-- **Filtro De/Até**, seleção múltipla e exportação em CSV.
+- **Seleção múltipla** e **exportação em CSV** — do total, dos filtrados pelos cartões ou
+  só da seleção.
 
 {: .note }
 A exportação traz **uma linha por tentativa de envio**, não só o resumo por ciclo — se um

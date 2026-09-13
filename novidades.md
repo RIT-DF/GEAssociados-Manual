@@ -8,6 +8,36 @@ nav_order: 13
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## O filtro escolhido acompanha você entre as abas de Relatórios
+
+Escolheu um plano, um ciclo ou um período no Painel? A mesma escolha agora vale em
+Inadimplência, Recebimentos, Composição e Entregabilidade — trocar de aba não zera o
+filtro, e ele sobrevive a recarregar a página. Com um ciclo escolhido, as datas somem e a
+tela mostra "Todo o ciclo" (ou "Mês de vencimento do ciclo", em Composição); Recebimentos
+passa a mostrar só os lançamentos daquele ciclo. E os cartões do Painel passam a dizer "do
+período" em vez de "do mês", quando o período escolhido não é o mês corrente. Veja
+[Painel](/modulos/painel/#o-que-você-vê).
+
+## Inadimplência ganha ações direto na lista
+
+A lista de inadimplentes agora mostra quantas outras cobranças cada família tem em aberto
+e a última comunicação enviada. E, sem sair da tela, dá para **enviar mensagem** (lembrete
+de atraso, aviso formal ou um texto seu, com as informações da cobrança inseridas
+automaticamente), **copiar o link de pagamento**, **registrar um contato feito por fora do
+sistema**, **marcar como paga** e **abrir a família já em edição** — inclusive em lote,
+para várias famílias de uma vez, com confirmação antes e o resultado de cada uma ao final.
+A mesma cobrança não recebe duas comunicações no mesmo dia. Veja
+[Inadimplência](/modulos/inadimplencia/#ações-por-cobrança).
+
+## Entregabilidade mostra a lista de problemas sem precisar clicar
+
+A lista de comunicações com problema agora fica sempre visível, com o motivo em linguagem
+simples e uma sugestão do que fazer — antes era preciso descobrir que dava para clicar num
+número. Os cartões e a tabela por ciclo filtram essa lista, "Corrigir e-mail" leva direto
+ao cadastro da pessoa em edição, e o reenvio em lote mostra quantas comunicações serão
+reenviadas antes de confirmar. Veja
+[Entregabilidade](/modulos/entregabilidade/#comunicações-com-problema).
+
 ## Permissões podem ser convertidas para o modelo dos demais plugins da casa
 
 Quem administra o plugin agora encontra, em [Diagnóstico](/modulos/diagnostico/#converter-o-controle-de-permissões),

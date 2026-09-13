@@ -34,6 +34,12 @@ diz **quem** pesou quanto no total — e com mais de um ciclo por ano, a coluna 
 que diz a que período aquele recebimento pertence, sem você ter que abrir o pedido no
 WooCommerce para descobrir.
 
+{: .note }
+Escolheu um **ciclo** no filtro compartilhado das abas de Relatórios (veja
+[Painel](/modulos/painel/#o-que-você-vê)) em vez de um período por data? A tela mostra só
+os lançamentos **daquele ciclo** — antes mostrava o histórico inteiro, mesmo com um ciclo
+escolhido.
+
 ## O que você faz aqui
 
 - **Filtro De/Até**, obrigatório — o padrão é o mês corrente.

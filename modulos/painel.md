@@ -34,6 +34,30 @@ relatório separado.
   analisando.
 - **Cobranças críticas em aberto**, numa tabela com link direto para cada uma.
 
+{: .tip }
+**O recorte que você escolhe aqui vale para as outras abas de Relatórios também.** Filtrou
+por um plano e um ciclo no Painel e foi olhar a Inadimplência? A tela já abre com o mesmo
+recorte — não precisa escolher de novo. Isso vale trocando entre Painel, Inadimplência,
+Recebimentos, Composição e Entregabilidade, e sobrevive a recarregar a página. Antes, cada
+aba esquecia o filtro da anterior.
+
+![Painel com um ciclo escolhido: os campos De e Até somem e a tela mostra "Todo o ciclo" no lugar deles](/assets/img/painel-todo-o-ciclo.png)
+
+{: .note }
+**Escolheu um ciclo?** Os campos **De** e **Até** ficam vazios e a tela mostra **"Todo o
+ciclo"** no lugar deles — o recorte passa a ser o ciclo inteiro, não um intervalo de datas.
+Isso vale no Painel e nas demais abas de Relatórios. A exceção é a
+[Composição](/modulos/composicao/), que não é sobre cobranças: lá, com um ciclo escolhido,
+o período usado é o **mês de vencimento do ciclo**, e a tela avisa isso explicitamente.
+
+{: .note }
+**Escolheu um período diferente do mês corrente** (por data ou por ciclo)? Os três
+cartões que mudam com o filtro passam a dizer **"Recebido no período"**, **"Previsto até o
+fim do período"** e **"Taxa de pagamento do período"**, em vez de "do mês" — para não
+sugerir um mês que não é o que está sendo mostrado. Filtrando só por plano, sem mexer no
+período, os cartões continuam falando "do mês", porque o servidor mantém o mês corrente
+nesse caso.
+
 {: .note }
 Contadores e gráfico não mudam com o filtro de plano ou ciclo — só os indicadores
 financeiros do topo mudam. Se parecer que o gráfico "não respeitou o filtro", é esse o
