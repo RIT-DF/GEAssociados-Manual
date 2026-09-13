@@ -13,6 +13,8 @@ atraso e quais cobranças merecem atenção agora.
 
 ![Painel do GE Associados com indicadores do mês e cobranças críticas](/assets/img/painel.png)
 
+![Painel do GE Associados em celular](/assets/img/painel-mobile.png)
+
 ## Para que serve
 
 É a primeira tela a olhar quando você quer saber "como estamos indo" sem entrar em cada

@@ -79,6 +79,22 @@ texto que você editou. Para incluir uma novidade dessas no seu modelo, adicione
 correspondente você mesmo — veja
 [Editar modelo](/modulos/comunicacao/#editar-modelo).
 
+## Pedi o link de acesso várias vezes seguidas e agora nem consigo mais pedir. Por quê?
+
+Porque o portal (e o simulador) tem um **limite de tentativas** por segurança, para
+dificultar que alguém tente adivinhar e-mails cadastrados em sequência. Cada pedido
+recusado por esse limite **soma à espera**, em vez de simplesmente não contar — então
+continuar tentando **não** libera mais rápido, e só adia o momento em que dá para tentar
+de novo.
+
+{: .tip }
+Se você recebeu a mensagem de limite atingido, o mais rápido é **parar e esperar** um
+pouco antes de tentar de novo. Cada nova tentativa recusada empurra a liberação para mais
+tarde.
+
+O portal, o formulário de troca de e-mail e o simulador têm cada um o seu próprio limite,
+que não é dividido entre eles — atingir o limite de um não afeta os outros.
+
 ## O que acontece quando eu desativo um membro?
 
 Ele para de contar para tudo: sai da geração de cobrança dali para a frente, sai da

@@ -8,6 +8,29 @@ nav_order: 13
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Permissões podem ser convertidas para o modelo dos demais plugins da casa
+
+Quem administra o plugin agora encontra, em [Diagnóstico](/modulos/diagnostico/#converter-o-controle-de-permissões),
+uma ação que faz o controle de acesso do GE Associados funcionar do mesmo jeito que os
+outros sistemas da família. Antes de converter, você vê pessoa a pessoa quem ganharia,
+perderia ou manteria acesso — e a conversão é recusada se alguém perderia. Nada muda até
+você decidir converter. Veja também a tela de
+[Permissões](/modulos/permissoes/#depois-da-conversão) depois da conversão.
+
+## Visual do painel administrativo atualizado
+
+O cabeçalho, a barra de navegação e a área de avisos passam a seguir o mesmo desenho dos
+demais plugins da casa — inclusive a fonte usada nas telas. A navegação perdeu os ícones
+e ficou só com texto, e a cor de destaque do item selecionado agora acompanha a cor da
+organização (ou a do tema, quando a organização não tiver uma definida).
+
+## Insistir depois de bloqueado não libera mais rápido
+
+No portal do responsável e no simulador público, cada tentativa recusada por excesso de
+pedidos agora **soma à espera** em vez de ser ignorada. Continuar tentando não contorna o
+limite — só adia a liberação. Veja
+[Pedi o link várias vezes e agora nem consigo mais pedir](/perguntas-frequentes/#pedi-o-link-de-acesso-várias-vezes-seguidas-e-agora-nem-consigo-mais-pedir-por-quê).
+
 ## Logo dos documentos mais nítida na impressão
 
 O recibo e a declaração anual passaram a desenhar a logo do grupo numa altura que respeita

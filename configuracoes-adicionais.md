@@ -60,6 +60,13 @@ administrador), configure o que cada papel pode fazer em
 [Permissões](/modulos/permissoes/) — assim ninguém precisa dividir a senha de
 administrador do site.
 
+{: .note }
+A partir da v1.80.0, o controle de permissões pode ser convertido para o mesmo modelo dos
+demais plugins da casa — depois de convertido, só existe o papel **Tesoureiro (GE
+Associados)**, atribuído pela tela de Usuários do WordPress. Veja
+[Converter o controle de permissões](/modulos/diagnostico/#converter-o-controle-de-permissões)
+antes de decidir se e quando converter.
+
 {: .warning }
 Dividir a senha de administrador entre várias pessoas é um risco de segurança
 desnecessário: qualquer uma delas passa a poder mudar qualquer coisa no site, não só no

@@ -36,3 +36,8 @@ diferença explicada em linguagem simples. Com mais de um filho, você também v
 O valor mostrado aqui é uma **estimativa para a data que você escolheu**, não um valor
 travado. O valor final é recalculado no momento em que a cobrança de verdade é gerada, e
 pode mudar se as regras do grupo mudarem entre agora e lá.
+
+{: .note }
+Se aparecer uma mensagem de **limite de tentativas atingido**, espere um pouco antes de
+tentar de novo — insistir na hora não libera mais rápido, só adia a liberação. Veja
+[Pedi o link várias vezes e agora nem consigo mais pedir](/perguntas-frequentes/#pedi-o-link-de-acesso-várias-vezes-seguidas-e-agora-nem-consigo-mais-pedir-por-quê).

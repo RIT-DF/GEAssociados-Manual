@@ -96,3 +96,7 @@ dá para perceber se alguém mais acessou sem ser você.
 - **A cobrança em aberto não tem link "Pagar agora"** — não é erro do portal: significa
   que o link de pagamento ainda não foi gerado, ou que aquela cobrança é combinada por
   fora do sistema. Siga a orientação que aparece ao lado da cobrança.
+- **Apareceu uma mensagem de limite de tentativas atingido** — pare de tentar por um
+  tempo antes de pedir de novo. Insistir não libera mais rápido; cada tentativa recusada
+  adia mais a liberação. Veja
+  [Pedi o link várias vezes e agora nem consigo mais pedir](/perguntas-frequentes/#pedi-o-link-de-acesso-várias-vezes-seguidas-e-agora-nem-consigo-mais-pedir-por-quê).
