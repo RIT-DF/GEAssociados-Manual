@@ -29,7 +29,7 @@ importação — só a configuração operacional (planos, regras, rótulos etc.
 
 ## Excluir configuração
 
-![Confirmação de exclusão de configuração](/assets/img/configuracao.png)
+![Confirmação de exclusão de configuração, com a contagem do que seria apagado e do que seria recusado](/assets/img/configuracao-exclusao.png)
 
 Mostra o que será removido, exige **digitar o nome exato da organização** para confirmar,
 e é **irreversível**.

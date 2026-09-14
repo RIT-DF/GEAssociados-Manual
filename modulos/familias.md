@@ -50,6 +50,11 @@ O campo "Responsável financeiro" decide quem recebe o e-mail de cobrança. Conf
 errado manda a cobrança para a pessoa errada, e ninguém percebe até o vencimento passar
 sem pagamento.
 
+{: .tip }
+No modo **Ambos**, o e-mail sai uma vez só, com o segundo responsável em cópia — e a
+saudação nomeia os dois. Veja como isso funciona quando falta e-mail de um deles em
+[A quem o e-mail chama pelo nome](/modulos/comunicacao/#a-quem-o-e-mail-chama-pelo-nome).
+
 ## Declaração anual
 
 ![Modal de declaração anual de uma família, com o campo de ano](/assets/img/familia-declaracao-anual.png)

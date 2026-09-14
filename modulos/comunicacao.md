@@ -99,6 +99,31 @@ havia personalizado continua exatamente como você deixou; a atualização não 
 editado pelo operador. Para incluir a lista num modelo seu, adicione o marcador
 `{linhas_membros}` onde quiser que ela apareça — veja [Editar modelo](#editar-modelo).
 
+### A quem o e-mail chama pelo nome
+
+O marcador `{nome_responsavel}` (e sua versão curta, `{nome_responsavel_curto}`) nomeia
+**exatamente quem recebe aquele e-mail** — não necessariamente todo mundo cadastrado na
+família.
+
+- **Um só responsável recebe** (modo "Apenas o primeiro" ou "Apenas o segundo", veja
+  [Famílias](/modulos/familias/#responsável-financeiro--os-quatro-modos)) → a saudação
+  traz só o nome dele.
+- **Os dois são financeiros e os dois têm e-mail** (modo "Ambos") → um único e-mail sai,
+  com o segundo responsável em cópia, e a saudação traz os dois nomes, na ordem em que
+  aparecem no cadastro: "Olá, Rodrigo Barreto e Camila Siqueira".
+- **Os dois são financeiros, mas só um tem e-mail cadastrado** → o marcador nomeia só
+  quem de fato vai receber. Se o primeiro responsável não tem e-mail, a saudação traz só
+  o segundo — mesmo ele sendo o "segundo" no cadastro.
+
+Vale para todos os modelos de cobrança, para o [texto livre da
+Inadimplência](/modulos/inadimplencia/#o-texto-livre-e-as-variáveis-da-cobrança) e para a
+pré-visualização com dados reais. Responsável sem e-mail nunca é nomeado — não há como
+avisar alguém que o sistema não consegue alcançar.
+
+{: .note }
+O e-mail que vai **direto ao associado** (não ao responsável financeiro da família) segue
+com a saudação de sempre, sem essa lógica de "quem recebe".
+
 ### Confirmação de pagamento traz o link do recibo
 
 O e-mail de **Pagamento confirmado** ganhou, no fim do corpo, o link **Baixar recibo** —

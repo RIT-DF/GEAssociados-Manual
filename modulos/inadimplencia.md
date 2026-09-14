@@ -94,6 +94,12 @@ Três opções:
 - **Aviso formal** — idem, o modelo de cobrança formal.
 - **Texto livre** — um texto seu, escrito na hora, para aquela família.
 
+![Pré-visualização do Lembrete de atraso para uma família com os dois responsáveis financeiros: a saudação nomeia os dois, "Olá, Rodrigo Barreto e Camila Siqueira"](/assets/img/inadimplencia-preview-saudacao.png)
+
+{: .tip }
+Repare, na pré-visualização acima, que a saudação já traz **os dois responsáveis** —
+veja por quê em [A quem o e-mail chama pelo nome](/modulos/comunicacao/#a-quem-o-e-mail-chama-pelo-nome).
+
 O e-mail sai no mesmo layout dos demais (cabeçalho, rodapé com o contato do financeiro) e
 o **link de pagamento da cobrança é anexado automaticamente ao final** — você não precisa
 colar o link à mão. O envio fica registrado no histórico da cobrança e aparece em
@@ -114,6 +120,10 @@ os modelos de e-mail de [Comunicação](/modulos/comunicacao/#editar-modelo) já
 curto do responsável, período, vencimento, lista de associados com valores, link de
 pagamento, dias em atraso, entre outras. Cada uma mostra, em linguagem simples, o que ela
 vira no texto final, com um exemplo.
+
+O nome do responsável segue a mesma regra de sempre — veja [A quem o e-mail chama pelo
+nome](/modulos/comunicacao/#a-quem-o-e-mail-chama-pelo-nome): quando os dois responsáveis
+da família são financeiros e recebem, a pré-visualização já mostra os dois nomes juntos.
 
 - **Clique numa variável** da lista para inserir no ponto onde o cursor está.
 - A **pré-visualização** mostra o texto já substituído, com os dados reais da cobrança
