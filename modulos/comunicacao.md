@@ -46,6 +46,22 @@ marcador `{linhas_membros}` no corpo, no ponto onde a lista deve aparecer. Model
 pelo operador não recebe marcador novo sozinho — é você quem decide se quer a lista e onde
 ela entra.
 
+### O número de dias em atraso, calculado no envio
+
+![Edição do modelo "Vencida há N dias", com o marcador {dias_atraso} no assunto e no corpo](/assets/img/comunicacao-modelo-dias-atraso.png)
+
+Nos modelos de cobrança em atraso (**Vencida há N dias** e **Cobrança formal de atraso**),
+o marcador `{dias_atraso}` insere o número real de dias em atraso **no momento em que o
+e-mail é enviado** — no assunto e no corpo. Antes, esse número vinha fixo do próprio texto
+do modelo (por exemplo, "há 7 dias" no modelo pensado para disparar no 7º dia); um reenvio
+manual dias depois, ou um envio que saísse fora do dia previsto, repetia o número errado.
+
+{: .note }
+Instalações que já usam o plugin recebem o marcador automaticamente nos modelos que o
+operador nunca editou — mesma regra de sempre. Modelo já personalizado por você continua
+exatamente como você deixou; para usar o número real nele, insira `{dias_atraso}` onde
+quiser que ele apareça.
+
 ## Cobrança sem valor a pagar
 
 ![Aba Visão geral com a linha do modelo "Cobrança sem valor a pagar" na tabela de modelos](/assets/img/comunicacao-modelo-sem-valor.png)

@@ -8,6 +8,28 @@ nav_order: 13
 Um resumo, em linguagem simples, do que mudou nas versões mais recentes — o que interessa
 para quem usa o plugin no dia a dia, não o registro técnico completo.
 
+## Entregabilidade ganha a situação "Lembrete perdido"
+
+Quando um aviso de atraso não sai no dia certo, a rotina diária agora tenta de novo por
+até 3 dias — antes, um lembrete perdido nesse intervalo se perdia de vez, em silêncio.
+Passado esse prazo sem conseguir enviar, a cobrança entra na nova situação **Lembrete
+perdido**: o aviso não sai mais para o associado, o financeiro é avisado, e a única forma
+de o responsável ainda saber é você mandar a mensagem à mão. Essa situação aparece por
+padrão na lista de comunicações com problema, com o e-mail de quem teria recebido e um
+link direto para a cobrança — mas não pode ser reenviada pela tela, porque o cadastro não
+tem nada de errado para corrigir. Veja
+[Entregabilidade](/modulos/entregabilidade/#o-que-você-vê).
+
+## O aviso de atraso passa a dizer o número certo de dias
+
+O e-mail de cobrança em atraso dizia sempre o mesmo número de dias — o do modelo escolhido
+— mesmo quando o atraso já era maior, por exemplo num reenvio manual. Agora o assunto e o
+corpo mostram o número real no momento do envio. Na Inadimplência, no histórico de
+Comunicação e na Entregabilidade, o rótulo do último envio também passa a completar o
+número — "Vencida há 7 dias" ou "Vencida há 30 dias", em vez do genérico de antes. Veja
+[Comunicação](/modulos/comunicacao/#o-número-de-dias-em-atraso-calculado-no-envio) e
+[Inadimplência](/modulos/inadimplencia/#o-que-você-vê).
+
 ## O filtro escolhido acompanha você entre as abas de Relatórios
 
 Escolheu um plano, um ciclo ou um período no Painel? A mesma escolha agora vale em

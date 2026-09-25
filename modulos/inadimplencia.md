@@ -37,6 +37,16 @@ cada dia), os **dias de atraso**, a **faixa de atraso**, o **vencimento**, o **p
 **ciclo**, o **pedido** (o número do pedido WooCommerce), **outras cobranças em aberto**
 da mesma família e a **última comunicação enviada**, com o contato usado.
 
+A **última comunicação enviada** mostra qual aviso saiu, não só que algo saiu — por
+exemplo, "Vencida há 7 dias" ou "Vencida há 30 dias", com o número real de dias em atraso
+no momento daquele envio.
+
+{: .note }
+Se a última linha for **"Lembrete perdido"** (em vermelho, abaixo da data), aquele aviso
+específico não saiu — a rotina diária não conseguiu recuperá-lo a tempo. Veja
+[Entregabilidade](/modulos/entregabilidade/#o-que-você-vê) para o que isso significa e
+mande a mensagem manualmente por [Enviar mensagem](#enviar-mensagem) abaixo.
+
 {: .important }
 **"Enviado" na última comunicação quer dizer que o servidor aceitou o envio — não que a
 família já leu, nem que a mensagem chegou de fato à caixa de entrada.** Para saber se um
